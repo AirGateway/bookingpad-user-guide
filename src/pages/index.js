@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Comprehensive shopping, booking, and servicing for all NDC airlines in one single tool</>,
+    imageUrl: 'img/shopping-bag.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We aggregate shopping content, features, and bookings from all the NDC airlines you are authorized. All of it in one single and consistent web application.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>Modern WEB interface ready for airline rich-content and personalization</>,
+    imageUrl: 'img/globe.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        NDC enables airlines to deliver rich-content and ancillary services such us paid seats, extra luggage, on-board Wifi or premium meals.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Sell airline ancillary services and multiple upgrades</>,
+    imageUrl: 'img/file-text.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        By using Bookingpad, partner agents can increase your value added service and revenue by selling ancillary services such as paid seats, extra luggage, on-board Wifi or premium meals, etc...
       </>
     ),
   },
@@ -68,7 +65,7 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
+                'button button--secondary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>

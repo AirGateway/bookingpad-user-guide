@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'The most advanced NDC-ready booking tool for travel agents',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'AirGateway', // Usually your GitHub org/user name.
   projectName: 'bookingpad-user-guide', // Usually your repo name.
   themeConfig: {
