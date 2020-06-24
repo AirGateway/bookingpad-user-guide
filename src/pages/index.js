@@ -8,29 +8,18 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Comprehensive shopping, booking, and servicing for all NDC airlines in one single tool</>,
-    imageUrl: 'img/shopping-bag.svg',
+    title: <>Agency Portal</>,
     description: (
       <>
-        We aggregate shopping content, features, and bookings from all the NDC airlines you are authorized. All of it in one single and consistent web application.
+        Help topics for AirGateway's application for travel agents.
       </>
     ),
   },
   {
-    title: <>Modern WEB interface ready for airline rich-content and personalization</>,
-    imageUrl: 'img/globe.svg',
+    title: <>Bookingpad</>,
     description: (
       <>
-        NDC enables airlines to deliver rich-content and ancillary services such us paid seats, extra luggage, on-board Wifi or premium meals.
-      </>
-    ),
-  },
-  {
-    title: <>Sell airline ancillary services and multiple upgrades</>,
-    imageUrl: 'img/file-text.svg',
-    description: (
-      <>
-        By using Bookingpad, partner agents can increase your value added service and revenue by selling ancillary services such as paid seats, extra luggage, on-board Wifi or premium meals, etc...
+        Help topics on how to use AirGateway's Bookingpad — NDC booking tool.
       </>
     ),
   },
@@ -39,7 +28,7 @@ const features = [
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx('col col--6', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -82,6 +71,7 @@ function Home() {
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
                 ))}
+
               </div>
             </div>
           </section>

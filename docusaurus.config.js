@@ -19,13 +19,7 @@ module.exports = {
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+        }
       ],
     },
     footer: {
@@ -35,12 +29,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Bookingpad',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Agency Portal',
+              to: 'docs/doc1/',
             },
           ],
         },
@@ -75,7 +69,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `An AirGateway Product - All rights reserved © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `An AirGateway Product - All rights reserved © ${new Date().getFullYear()}. Built with Docusaurus.`,
     },
   },
   presets: [

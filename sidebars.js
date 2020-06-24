@@ -1,6 +1,15 @@
 module.exports = {
-  someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
-  },
+  docs: [
+    {
+      type: 'category',
+      label: 'Bookingpad',
+      collapsed: false,
+      items: ['overview', 'shopping', 'booking', 'order-management', 'create-booking-onhold', 'issue-booking-onhold'],
+    },
+    {
+      type: 'category',
+      label: 'Agency Portal',
+      items: ['doc1', 'doc2', 'doc3', 'doc4', 'doc5'],
+    },
+  ]
 };
