@@ -8,18 +8,18 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Agency Portal</>,
-    description: (
-      <>
-        Help topics for AirGateway's application for travel agents.
-      </>
-    ),
-  },
-  {
     title: <>Bookingpad</>,
     description: (
       <>
         Help topics on how to use AirGateway's Bookingpad — NDC booking tool.
+      </>
+    ),
+  },
+  {
+    title: <>Agency Portal</>,
+    description: (
+      <>
+        Help topics for AirGateway's application for travel agents.
       </>
     ),
   },

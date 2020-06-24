@@ -7,6 +7,7 @@ module.exports = {
   organizationName: 'AirGateway', // Usually your GitHub org/user name.
   projectName: 'bookingpad-user-guide', // Usually your repo name.
   themeConfig: {
+    disableDarkMode: true,
     navbar: {
       title: 'Bookingpad',
       logo: {
@@ -15,7 +16,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/',
+          to: 'docs/overview',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
