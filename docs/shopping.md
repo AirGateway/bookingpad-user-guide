@@ -15,3 +15,5 @@ The **Shop** section key features are:
 - (B) **Overview** module shows search results of flight offers by airline, price and number of available offers. The default grouping is by cabin but results can be grouped by fare. Filters can be applied to offers to narrow down the search results.
 
 - (C) **Filters** module provide a wide array of filters such as maximum number of stops, price range, issue time limit, time range, maximum flight duration, airports, flight numbers, connections.
+
+- (D) **Listings** module shows all the flight offers with its main details. The search results can be sorted by price, departure/arrival times, flight duration. Offer expiration countdown and issuing time limit is also provided for each offer.

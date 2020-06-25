@@ -26,9 +26,11 @@
 
 .features {
   display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  text-align: center;
 }
 
 .featureImage {
@@ -37,9 +39,9 @@
   padding-bottom: 1rem;
 }
 
-.features_src-pages {
-  text-align: center;
-  background-color: red;
+.featureBox {
+  padding: 1em;
 }
+
 
 
