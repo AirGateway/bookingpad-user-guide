@@ -2,6 +2,8 @@
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
+Netlify CMS for content workflow. [Access the CMS](https://user-guide.bookingpad.net/admin/)
+
 ### Installation
 
 ```
