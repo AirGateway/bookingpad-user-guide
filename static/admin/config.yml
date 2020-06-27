@@ -13,4 +13,5 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Sidebar Label', name: 'sidebar_label', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
