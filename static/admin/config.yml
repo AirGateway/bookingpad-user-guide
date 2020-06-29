@@ -8,10 +8,11 @@ collections:
     label: 'Docs'
     folder: 'docs'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
     editor:
       preview: false
     fields:
+      - { label: 'ID', name: 'id', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Sidebar Label', name: 'sidebar_label', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
