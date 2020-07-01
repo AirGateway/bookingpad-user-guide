@@ -1,5 +1,5 @@
 ---
-id: issue-booking-onhold
+layout: doc
 title: Issuing an On-hold Booking
 sidebar_label: Issue On-hold Booking
 ---

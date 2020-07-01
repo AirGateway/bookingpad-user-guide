@@ -1,5 +1,5 @@
 ---
-id: doc5
+layout: doc
 title: Developers
 ---
 

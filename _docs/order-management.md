@@ -1,5 +1,5 @@
 ---
-id: order-management
+layout: doc
 title: Order Management
 sidebar_label: Order Managements
 ---

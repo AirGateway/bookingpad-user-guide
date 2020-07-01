@@ -1,5 +1,5 @@
 ---
-id: create-booking-onhold
+layout: doc
 title: Creating a Booking On-hold
 sidebar_label: Create Booking On-hold
 ---

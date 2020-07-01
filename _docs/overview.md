@@ -1,5 +1,5 @@
 ---
-id: overview
+layout: doc
 title: Overview
 ---
 

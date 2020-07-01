@@ -1,5 +1,5 @@
 ---
-id: doc3
+layout: doc
 title: Manage Agents
 ---
 

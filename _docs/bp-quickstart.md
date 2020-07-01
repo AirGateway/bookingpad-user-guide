@@ -1,5 +1,5 @@
 ---
-id: bp-quickstart
+layout: doc
 title: Start Using Bookingpads
 sidebar_label: Quick Start
 ---

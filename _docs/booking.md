@@ -1,5 +1,5 @@
 ---
-id: booking
+layout: doc
 title: Booking
 sidebar_label: Booking
 date: 2020-06-26T19:48:27.579Z

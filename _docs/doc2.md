@@ -1,5 +1,5 @@
 ---
-id: doc2
+layout: doc
 title: Start Using
 ---
 
