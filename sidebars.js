@@ -4,7 +4,7 @@ module.exports = {
       type: 'category',
       label: 'Bookingpad',
       collapsed: false,
-      items: ['overview', 'shopping', 'booking', 'order-management', 'create-booking-onhold', 'issue-booking-onhold'],
+      items: ['overview', 'shopping', 'booking', 'order-management', 'create-booking-onhold', 'issue-booking-onhold', 'glossary'],
     },
     {
       type: 'category',

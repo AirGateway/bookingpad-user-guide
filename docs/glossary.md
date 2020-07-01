@@ -1,5 +1,5 @@
 ---
-id: got
+id: glossary
 title: Glossary of Terms
 sidebar_label: Glossary
 ---
