@@ -1,15 +1,6 @@
-<<<<<<< HEAD
-*.gem
-.bundle
-.DS_Store
-.sass-cache
-_site
-Gemfile.lock
-.jekyll-cache
-=======
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
->>>>>>> First commit
+.DS_Store
