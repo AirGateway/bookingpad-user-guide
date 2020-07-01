@@ -3,11 +3,22 @@ backend:
   branch: master
 media_folder: 'assets/uploads'
 collections:
+  - name: 'Docs'
+    label: 'Docs'
+    folder: '_docs/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'doc' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'Posts'
     label: 'Posts'
     folder: '_posts/'
     create: true
-    slug: '{{slug}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
     fields:

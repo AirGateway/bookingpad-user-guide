@@ -19,7 +19,7 @@ defaults:
     path: _docs
     type: docs
   values:
-    layout: docs
+    layout: doc
 - scope:
     path: _posts
     type: posts
