@@ -7,11 +7,31 @@ collections:
     label: 'Posts'
     folder: '_posts/'
     create: true
+<<<<<<< HEAD
     slug: '{{slug}}'
+=======
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+>>>>>>> First commit
     editor:
       preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+<<<<<<< HEAD
       - { label: 'Body', name: 'body', widget: 'markdown' }
+=======
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'About Page'
+        name: 'about'
+        file: '_pages/about.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Layout', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+>>>>>>> First commit
