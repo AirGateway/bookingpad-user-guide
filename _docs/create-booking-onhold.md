@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: Creating a Booking On-hold
+category: bookingpad
 sidebar_label: Create Booking On-hold
 ---
 

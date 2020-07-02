@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: Start Using Bookingpads
+category: bookingpad
 sidebar_label: Quick Start
 ---
 

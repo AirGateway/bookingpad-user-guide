@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: Shopping
+category: bookingpad
 sidebar_label: Shopping
 date: 2020-06-26T19:24:31.419Z
 description: How to shop for flight offers

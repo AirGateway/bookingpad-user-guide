@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: Booking
+category: bookingpad
 sidebar_label: Booking
 date: 2020-06-26T19:48:27.579Z
 description: How to make booking

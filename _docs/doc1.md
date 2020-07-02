@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: Agency Portal Features
+category: agency_portal
 ---
 
 **AirGateway's Agency Portal** web app is for travel agency to manage their agents, view airlines settings and provide support for developers.

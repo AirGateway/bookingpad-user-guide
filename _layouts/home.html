@@ -4,31 +4,40 @@ layout: default
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+  <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
-  {%- if site.docs.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Docs" }}</h2>
+
+  <h2 class="post-list-heading">{{ page.list_title | default: "Bookingpad Docs" }}</h2>
+  {%- for item in site.docs -%}
+    {%- if item.category == "bookingpad" -%}
     <ul class="post-list">
-      {%- for item in site.docs -%}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ item.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ item.url | relative_url }}">
             {{ item.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ item.excerpt }}
-        {%- endif -%}
       </li>
-      {%- endfor -%}
     </ul>
+    {%- endif -%}
+    {%- endfor -%}
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Agency Portal Docs" }}</h2>
+    {%- for item in site.docs -%}
+    {%- if item.category == "agency_portal" -%}
+    <ul class="post-list">
+      <li>
+        <h3>
+          <a class="post-link" href="{{ item.url | relative_url }}">
+            {{ item.title | escape }}
+          </a>
+        </h3>
+      </li>
+    </ul>
+    {%- endif -%}
+  {%- endfor -%}
 
 </div>
