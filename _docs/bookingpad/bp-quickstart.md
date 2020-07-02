@@ -1,8 +1,7 @@
 ---
 layout: doc
-title: Start Using Bookingpads
+title: Start Using Bookingpad
 category: bookingpad
-sidebar_label: Quick Start
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
