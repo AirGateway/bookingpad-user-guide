@@ -1,1 +1,24 @@
 @import "bp/typography";
+
+.wrapper {
+  @media only screen and (min-width: 960px) {
+    max-width: 1200px;
+    min-width: 801px;
+    width: auto;
+  }
+}
+.site-header {
+  padding: 1rem 0;
+}
+.site-title {
+  font-size: 3rem;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+.brand {
+  color: #c00005;
+  font-weight: 800;
+  margin: 0;
+}
