@@ -8,6 +8,6 @@ description: How to make booking
 ---
 Lorem ipsum dolor sit amet, **consectetur adipiscing** elit. In ac euismod odio, eu consequat dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui.
 
-![](/img/undraw_docusaurus_mountain.svg)
+![](/assets/uploads/thm-paella.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui.
