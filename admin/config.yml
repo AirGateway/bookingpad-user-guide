@@ -3,9 +3,9 @@ backend:
   branch: master
 media_folder: 'assets/uploads'
 collections:
-  - name: 'Docs'
-    label: 'Docs'
-    folder: '_docs/'
+  - name: 'Bookingpad Docs'
+    label: 'Bookingpad'
+    folder: '_docs/bookingpad'
     create: true
     slug: '{{slug}}'
     editor:
@@ -13,7 +13,19 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'doc' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Category', name: 'category', widget: 'string' }
+      - { label: 'Category', name: 'category', widget: 'hidden', default: 'bookingpad' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'Agency Portal Docs'
+    label: 'Agency Portal Docs'
+    folder: '_docs/agency_portal'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'doc' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Category', name: 'category', widget: 'hidden', default: 'agency_portal' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'Posts'
     label: 'Posts'
