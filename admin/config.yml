@@ -4,7 +4,7 @@ backend:
 media_folder: 'assets/uploads'
 collections:
   - name: 'Bookingpad Docs'
-    label: 'Bookingpad'
+    label: 'Bookingpad Doc'
     folder: '_docs/bookingpad'
     create: true
     slug: '{{slug}}'
@@ -16,7 +16,7 @@ collections:
       - { label: 'Category', name: 'category', widget: 'hidden', default: 'bookingpad' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'Agency Portal Docs'
-    label: 'Agency Portal Docs'
+    label: 'Agency Portal Doc'
     folder: '_docs/agency_portal'
     create: true
     slug: '{{slug}}'
