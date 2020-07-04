@@ -2,9 +2,10 @@
 layout: default
 ---
 
-<div class="home">
-  <h2 class="post-list-heading">{{ page.list_title | default: "Bookingpad Docs" }}</h2>
-  {%- for item in site.docs -%}
+<div class="home homeGrid">
+  <div>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Bookingpad Support" }}</h2>
+    {%- for item in site.docs -%}
     {%- if item.category == "bookingpad" -%}
     <ul class="post-list">
       <li>
@@ -17,8 +18,9 @@ layout: default
     </ul>
     {%- endif -%}
     {%- endfor -%}
-
-    <h2 class="post-list-heading">{{ page.list_title | default: "Agency Portal Docs" }}</h2>
+  </div>
+  <div>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Agency Portal Support" }}</h2>
     {%- for item in site.docs -%}
     {%- if item.category == "agency_portal" -%}
     <ul class="post-list">
@@ -31,6 +33,6 @@ layout: default
       </li>
     </ul>
     {%- endif -%}
-  {%- endfor -%}
-
+    {%- endfor -%}
+  </div>
 </div>

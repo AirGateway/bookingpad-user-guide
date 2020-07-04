@@ -1,5 +1,20 @@
 @import "bp/typography";
 
+.home {
+    &Grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.doc {
+    &Grid {
+        display: grid;
+        grid-template-columns: 1fr 330px;
+        grid-gap: 5em;
+    }
+}
+
 .wrapper {
   @media only screen and (min-width: 960px) {
     max-width: 1200px;
@@ -21,4 +36,11 @@
   color: #c00005;
   font-weight: 800;
   margin: 0;
+}
+
+.post-list {
+    &-heading {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
 }

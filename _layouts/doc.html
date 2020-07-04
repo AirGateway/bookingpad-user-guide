@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<div class="docGrid">
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -25,3 +26,22 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+<div class="docNav">
+  <nav>
+  <h3 class="post-list-heading">{{ page.list_title | default: "Bookingpad Support" }}</h3>
+  {%- for item in site.docs -%}
+  {%- if item.category == "bookingpad" -%}
+  <ul class="post-list">
+    <li>
+      <h3>
+        <a class="post-link" href="{{ item.url | relative_url }}">
+          {{ item.title | escape }}
+        </a>
+      </h3>
+    </li>
+  </ul>
+  {%- endif -%}
+  {%- endfor -%}
+  </nav>
+</div>
+</div>
