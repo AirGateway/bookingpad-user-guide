@@ -5,34 +5,40 @@ layout: default
 <div class="home homeGrid">
   <div>
     <h2 class="post-list-heading">{{ page.list_title | default: "Bookingpad Support" }}</h2>
-    {%- for item in site.docs -%}
-    {%- if item.category == "bookingpad" -%}
+
     <ul class="post-list">
+      {%- for item in site.docs -%}
+      {%- if item.category == "bookingpad" -%}
       <li>
         <h3>
           <a class="post-link" href="{{ item.url | relative_url }}">
             {{ item.title | escape }}
           </a>
         </h3>
+        <p class="post-excerpt">{{ item.excerpt | strip_html | truncatewords: 24 }}</p>
       </li>
+      {%- endif -%}
+      {%- endfor -%}
     </ul>
-    {%- endif -%}
-    {%- endfor -%}
+
   </div>
   <div>
     <h2 class="post-list-heading">{{ page.list_title | default: "Agency Portal Support" }}</h2>
-    {%- for item in site.docs -%}
-    {%- if item.category == "agency_portal" -%}
+
     <ul class="post-list">
+      {%- for item in site.docs -%}
+      {%- if item.category == "agency_portal" -%}
       <li>
         <h3>
           <a class="post-link" href="{{ item.url | relative_url }}">
             {{ item.title | escape }}
           </a>
         </h3>
+        <p class="post-excerpt">{{ item.excerpt | strip_html | truncatewords: 24 }}</p>
       </li>
+      {%- endif -%}
+      {%- endfor -%}
     </ul>
-    {%- endif -%}
-    {%- endfor -%}
+
   </div>
 </div>
