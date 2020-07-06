@@ -6,7 +6,7 @@ date: 2020-06-26T19:24:31.419Z
 ---
 The **Shop** section provides the tools that would allow agents to quickly search and easily shop for offers.
 
-![Screenshot of the Shop section with module labels](/img/ss-bp-shop.png)
+![Screenshot of the Shop section with module labels](/static/img/ss-bp-shop.png)
 
 The **Shop** section key features are:
 

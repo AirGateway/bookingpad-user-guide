@@ -1,18 +1,56 @@
 @import "bp/typography";
 
 .home {
-    &Grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+  &Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .doc {
-    &Grid {
-        display: grid;
-        grid-template-columns: 1fr 330px;
-        grid-gap: 5em;
+  &Grid {
+    display: grid;
+    grid-template-columns: 1fr 330px;
+    grid-gap: 5em;
+  }
+
+  &Nav {
+    &-heading {
+      font-size: 1.34rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05rem;
     }
+    ul {
+      margin: 1em 0;
+      padding-left: 0;
+      padding-right: 0;
+      border-bottom: 1px dotted #d4d4d4;
+      li {
+        margin: 0;
+        padding-left: 5px;
+        border-top: 1px dotted #d4d4d4;
+        list-style-image: none;
+        list-style-type: none;
+
+        a {
+          display: block;
+          font-size: 1.23rem;
+          padding: 14px 5px 14px 5px;
+        }
+
+        &.active {
+          font-weight: 800;
+          border-left: 5px solid #c00005;
+          font-weight: 700;
+          background-color: #f0f0f0;
+
+          a {
+              color: #c00005;
+          }
+        }
+      }
+    }
+  }
 }
 
 .wrapper {
@@ -39,8 +77,8 @@
 }
 
 .post-list {
-    &-heading {
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
+  &-heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
 }
