@@ -184,3 +184,25 @@ footer {
     font-size: 1rem;
   }
 }
+
+.page-navigation {
+  padding-top: 3rem;
+  nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+    a {
+      border-radius: 5px;
+      background-color: #c00005;
+      color: white;
+      padding: .67rem 1rem;
+      font-weight: 800;
+      font-size: 1rem;
+      box-shadow: 0 4px 6px rgba(60, 60, 60, 0.11),
+        0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+  }
+}
