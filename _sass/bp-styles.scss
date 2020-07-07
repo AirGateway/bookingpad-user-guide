@@ -180,13 +180,21 @@ figure {
 }
 
 footer {
+  background-color: #E9F4FF;
+
+  &.site-footer {
+    border-top: none;
+    padding-top: 3rem;
+  }
   p {
     font-size: 1rem;
   }
 }
 
 .page-navigation {
-  padding-top: 3rem;
+  margin-top: 3rem;
+  padding-top: 1.34rem;
+  border-top: 1px solid #e0e0e0;
   nav {
     display: flex;
     flex-flow: row wrap;
