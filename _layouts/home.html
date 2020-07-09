@@ -90,70 +90,87 @@ layout: default
   </div>
 </div>
 
-<div class="home homeGrid">
-  <div>
-    <h2 class="post-list-heading">{{ page.list_title | default: "Bookingpad Support" }}</h2>
+<div class="user-guide">
+  <div class="layout">
+    <h2>User Guides</h2>
+    <div class="homeGrid">
+      <div>
+        <h3 class="post-list-heading">{{ page.list_title | default: "Bookingpad Support" }}</h3>
 
-    <ul class="post-list">
-      {%- for item in site.docs -%}
-      {%- if item.category == "bookingpad" -%}
-      <li>
-        <h3>
-          <a class="post-link" href="{{ item.url | relative_url }}">
-            {{ item.title | escape }}
-          </a>
-        </h3>
-        <p class="post-excerpt">{{ item.excerpt | strip_html | truncatewords: 24 }}</p>
-      </li>
-      {%- endif -%}
-      {%- endfor -%}
-    </ul>
+        <ul class="post-list">
+          {%- for item in site.docs -%}
+          {%- if item.category == "bookingpad" -%}
+          <li>
+            <h4>
+              <a class="post-link" href="{{ item.url | relative_url }}">
+                {{ item.title | escape }}
+              </a>
+            </h4>
+            <p class="post-excerpt">{{ item.excerpt | strip_html | truncatewords: 24 }}</p>
+          </li>
+          {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </div>
+      <div>
+        <h3 class="post-list-heading">{{ page.list_title | default: "Agency Portal Support" }}</h3>
 
+        <ul class="post-list">
+          {%- for item in site.docs -%}
+          {%- if item.category == "agency_portal" -%}
+          <li>
+            <h4>
+              <a class="post-link" href="{{ item.url | relative_url }}">
+                {{ item.title | escape }}
+              </a>
+            </h4>
+            <p class="post-excerpt">{{ item.excerpt | strip_html | truncatewords: 24 }}</p>
+          </li>
+          {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
   </div>
-  <div>
-    <h2 class="post-list-heading">{{ page.list_title | default: "Agency Portal Support" }}</h2>
+</div>
 
-    <ul class="post-list">
-      {%- for item in site.docs -%}
-      {%- if item.category == "agency_portal" -%}
-      <li>
+<div class="updates">
+  <div class="layout">
+    <h2>Bookingpad Updates & News</h2>
+    <ul>
+      {% for post in site.posts -%}
+      {% unless post.categories contains 'release' -%}
+      <li {%- if page.title == post.title %} class="current" {%- endif %}>
         <h3>
-          <a class="post-link" href="{{ item.url | relative_url }}">
-            {{ item.title | escape }}
-          </a>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h3>
-        <p class="post-excerpt">{{ item.excerpt | strip_html | truncatewords: 24 }}</p>
+        <p class="catalogue-desc">
+          {{ post.content | strip_html | truncatewords: 30 }}
+        </p>
+
       </li>
-      {%- endif -%}
-      {%- endfor -%}
+      {% endunless -%}
+      {% endfor -%}
     </ul>
   </div>
 </div>
 
-
-<h3>Bookingpad Updates & News</h3>
-<ul>
-  {% for post in site.posts -%}
-  {% unless post.categories contains 'release' -%}
-  <li {%- if page.title == post.title %} class="current" {%- endif %}>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </li>
-  {% endunless -%}
-  {% endfor -%}
-</ul>
-
-  <script src="/assets/js/siema.min.js"></script>
-  <script>
-    const mySiema = new Siema({
-      perPage: {
-        480: 2,
-        768: 3,
-        1024: 4,
-      },
-      duration: 300,
-      easing: 'cubic-bezier(.14,.27,.32,.84)',
-      loop: true,
-    });
-    // listen for keydown event
-    setInterval(() => mySiema.next(), 3000)
-  </script>
+<script src="/assets/js/siema.min.js"></script>
+<script>
+  const mySiema = new Siema({
+    perPage: {
+      480: 2,
+      768: 3,
+      1024: 4,
+    },
+    duration: 300,
+    easing: 'cubic-bezier(.14,.27,.32,.84)',
+    loop: true,
+  });
+  // listen for keydown event
+  setInterval(() => mySiema.next(), 3000)
+</script>
+  {%- include google-analytics.html -%}
+  <!-- Smallchat widget -->
+  <script src="https://embed.small.chat/TGUH8GJN6GH3833Y0Y.js" async></script>
+  <!-- Smallchat widget -->
