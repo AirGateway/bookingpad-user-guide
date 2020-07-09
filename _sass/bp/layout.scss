@@ -226,7 +226,7 @@ form {
 
 .updates {
   background-color: #e9f4ff;
-  padding: 5rem 1rem 1rem;
+  padding: 3rem 1rem;
   h2 {
     font-family: "Titillium Web", sans-serif;
     font-weight: 700;
@@ -238,10 +238,15 @@ form {
       display: block;
     }
   }
+
+  ul {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 }
 
 .user-guide {
-  padding: 5rem 1rem 1rem;
+  padding: 3rem 1rem;
   h2 {
     font-family: "Titillium Web", sans-serif;
     font-weight: 700;

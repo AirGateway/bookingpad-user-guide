@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Agency Portal Features
+title: Main Features
 category: agency_portal
 ---
 
