@@ -1,0 +1,17 @@
+- name: American Airlines
+  logo: logo-american-airlines.svg
+
+- name: British Airways
+  logo: logo-britishairways.svg
+
+- name: Emirates
+  logo: logo-emirates.svg
+
+- name: Iberia
+  logo: logo-iberia.svg
+
+- name: Lufthansa
+  logo: logo-lufthansa.svg
+
+- name: United Airlines
+  logo: logo-united.svg

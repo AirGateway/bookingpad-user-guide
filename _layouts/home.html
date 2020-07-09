@@ -2,6 +2,94 @@
 layout: default
 ---
 
+<div class="billboard" role="banner">
+  <div class="layout cols">
+    <div class="billboard-header">
+      <div class="liner"></div>
+      <h2>
+        The most advanced <em>NDC-ready</em> booking tool for travel agents
+      </h2>
+      <a class="button" href="/#register-form">Get started</a>
+    </div>
+    <div class="billboard-image">
+      <img src="/assets/images/screenshot-bp.png">
+    </div>
+  </div>
+</div>
+<div class="features">
+  <div class="layout">
+    <ul class="cols cols--third">
+      <li>
+        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="80" height="80" fill="none" />
+          <path
+            d="M20 6.66667L10 20V66.6667C10 68.4348 10.7024 70.1305 11.9526 71.3807C13.2029 72.631 14.8986 73.3333 16.6667 73.3333H63.3333C65.1014 73.3333 66.7971 72.631 68.0474 71.3807C69.2976 70.1305 70 68.4348 70 66.6667V20L60 6.66667H20Z"
+            stroke="#C00005" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M10 20H70" stroke="#C00005" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path
+            d="M53.3333 33.3333C53.3333 36.8696 51.9286 40.2609 49.4281 42.7614C46.9276 45.2619 43.5362 46.6667 40 46.6667C36.4638 46.6667 33.0724 45.2619 30.5719 42.7614C28.0714 40.2609 26.6667 36.8696 26.6667 33.3333"
+            stroke="#C00005" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <h3>Comprehensive shopping, booking, and servicing for all NDC airlines in one single tool</h3>
+        <p>
+          We aggregate shopping content, features, and bookings from all the NDC airlines you are authorized. All of it
+          in one single and consistent web application.
+        </p>
+      </li>
+      <li>
+        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="80" height="80" fill="none" />
+          <path
+            d="M40 73.3333C58.4095 73.3333 73.3333 58.4095 73.3333 40C73.3333 21.5905 58.4095 6.66667 40 6.66667C21.5905 6.66667 6.66667 21.5905 6.66667 40C6.66667 58.4095 21.5905 73.3333 40 73.3333Z"
+            stroke="#C00005" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M6.66667 40H73.3333" stroke="#C00005" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+          <path
+            d="M40 6.66667C48.3376 15.7945 53.0758 27.6401 53.3333 40C53.0758 52.3599 48.3376 64.2055 40 73.3333C31.6624 64.2055 26.9242 52.3599 26.6667 40C26.9242 27.6401 31.6624 15.7945 40 6.66667V6.66667Z"
+            stroke="#C00005" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <h3>Modern WEB interface ready for airline rich-content and personalization</h3>
+        <p>
+          NDC enables airlines to deliver rich-content and ancillary services such us paid seats, extra luggage,
+          on-board Wifi or premium meals.
+        </p>
+      </li>
+      <li>
+        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M46.6666 6.66666H20C18.2319 6.66666 16.5362 7.36904 15.2859 8.61928C14.0357 9.86952 13.3333 11.5652 13.3333 13.3333V66.6667C13.3333 68.4348 14.0357 70.1305 15.2859 71.3807C16.5362 72.6309 18.2319 73.3333 20 73.3333H60C61.7681 73.3333 63.4638 72.6309 64.714 71.3807C65.9643 70.1305 66.6666 68.4348 66.6666 66.6667V26.6667L46.6666 6.66666Z"
+            stroke="#C00005" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M46.6667 6.66666V26.6667H66.6667" stroke="#C00005" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+          <path d="M53.3334 43.3333H26.6667" stroke="#C00005" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+          <path d="M53.3334 56.6667H26.6667" stroke="#C00005" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+          <path d="M33.3334 30H30H26.6667" stroke="#C00005" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+        <h3>Sell airline ancillary services and multiple upgrades</h3>
+        <p>
+          By using Bookingpad, partner agents can increase your value added service and revenue by selling ancillary
+          services such as paid seats, extra luggage, on-board Wifi or premium meals, etc...
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="airlines">
+  <div class="layout">
+    <h3>Get the <em>best fares</em><span>from NDC-ready airlines!</span></h3>
+    <div class="airlines-carousel siema">
+      {% for airline in site.data.airlines %}
+      <div>
+        <img src="/assets/images/{{ airline.logo }}" alt="{{ airline.name }}">
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
 <div class="home homeGrid">
   <div>
     <h2 class="post-list-heading">{{ page.list_title | default: "Bookingpad Support" }}</h2>
@@ -39,6 +127,33 @@ layout: default
       {%- endif -%}
       {%- endfor -%}
     </ul>
-
   </div>
 </div>
+
+
+<h3>Bookingpad Updates & News</h3>
+<ul>
+  {% for post in site.posts -%}
+  {% unless post.categories contains 'release' -%}
+  <li {%- if page.title == post.title %} class="current" {%- endif %}>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </li>
+  {% endunless -%}
+  {% endfor -%}
+</ul>
+
+  <script src="/assets/js/siema.min.js"></script>
+  <script>
+    const mySiema = new Siema({
+      perPage: {
+        480: 2,
+        768: 3,
+        1024: 4,
+      },
+      duration: 300,
+      easing: 'cubic-bezier(.14,.27,.32,.84)',
+      loop: true,
+    });
+    // listen for keydown event
+    setInterval(() => mySiema.next(), 3000)
+  </script>

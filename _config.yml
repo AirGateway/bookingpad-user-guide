@@ -1,6 +1,6 @@
-title: User Guide
+title: Bookingpad
 brand: Bookingpad
-email: your-email@example.com
+email: contact@bookingpad.net
 description: >- # this means to ignore newlines until "baseurl:"
   The most advanced NDC-ready booking tool for travel agents
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -30,6 +30,8 @@ github_username:  AirGateway
 
 # Build settings
 # theme: minima
+
+markdown: kramdown
 plugins:
  - jekyll-feed
  - jekyll-seo-tag

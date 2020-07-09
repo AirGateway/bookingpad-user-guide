@@ -6,7 +6,14 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
+  {%- include google-analytics.html -%}
   {%- endif -%}
   {% seo %}
+  <meta name="description"
+    content="IATA, NDC, API, New Distribution Capability, airline, distribution, Iberia, British Airways, Air France, KLM, American Airlines, United Airlines">
+  <meta name="keywords"
+    content="Bookingpad, IATA, NDC, New Distribution Capability, airline, distribution, Iberia, British Airways, Air France, KLM, American Airlines, United Airlines">
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+  {%- include google-analytics.html -%}
+  {%- endif -%}
 </head>
