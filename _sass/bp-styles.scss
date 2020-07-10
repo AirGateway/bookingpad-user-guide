@@ -104,8 +104,12 @@ body {
     margin-bottom: 7px;
   }
 
+  & > li {
+    margin-bottom: 0;
+  }
+
   .post-link {
-    font-size: 1.8rem;
+    font-size: 1.67rem;
   }
 
   .post-excerpt {
@@ -238,4 +242,14 @@ footer {
     background-color: #eff7ff;
     padding: 2rem 6rem;
   }
+}
+
+.post-category {
+  margin-bottom: 4rem;
+}
+
+.catGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
 }

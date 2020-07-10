@@ -7,11 +7,11 @@ layout: default
   <div id="search-hits"></div>
 </div>
 
-<div class="home homeGrid">
-  <div>
+<div class="home">
+  <div class="post-category">
     <h2 class="post-list-heading">{{ page.list_title | default: "Bookingpad Support" }}</h2>
 
-    <ul class="post-list">
+    <ul class="post-list catGrid">
       {%- for item in site.docs -%}
       {%- if item.category == "bookingpad" -%}
       <li>
@@ -20,17 +20,16 @@ layout: default
             {{ item.title | escape }}
           </a>
         </h3>
-        <p class="post-excerpt">{{ item.excerpt | strip_html | truncatewords: 24 }}</p>
       </li>
       {%- endif -%}
       {%- endfor -%}
     </ul>
 
   </div>
-  <div>
+  <div class="post-category">
     <h2 class="post-list-heading">{{ page.list_title | default: "Agency Portal Support" }}</h2>
 
-    <ul class="post-list">
+    <ul class="post-list catGrid">
       {%- for item in site.docs -%}
       {%- if item.category == "agency_portal" -%}
       <li>
@@ -39,7 +38,7 @@ layout: default
             {{ item.title | escape }}
           </a>
         </h3>
-        <p class="post-excerpt">{{ item.excerpt | strip_html | truncatewords: 24 }}</p>
+
       </li>
       {%- endif -%}
       {%- endfor -%}
