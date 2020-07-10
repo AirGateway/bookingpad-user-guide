@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Shopping
+title: Shopping & Booking
 category: bookingpad
 date: 2020-06-26T19:24:31.419Z
 ---

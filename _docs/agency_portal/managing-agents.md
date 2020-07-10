@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Manage Agents
+title: Managing Agents
 category: agency_portal
 ---
 

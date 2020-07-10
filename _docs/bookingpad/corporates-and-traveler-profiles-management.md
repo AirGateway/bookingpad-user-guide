@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Creating a Booking On-hold
+title: Corporates & Traveler Profiles Management
 category: bookingpad
 ---
 

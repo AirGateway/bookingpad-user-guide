@@ -1,6 +1,7 @@
 ---
 layout: doc
-title: Airlines Settings
+title: Managing Partners
+
 category: agency_portal
 ---
 
