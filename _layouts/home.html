@@ -16,9 +16,7 @@ layout: default
       {%- if item.category == "bookingpad" -%}
       <li>
         <h3>
-          <a class="post-link" href="{{ item.url | relative_url }}">
             {{ item.title | escape }}
-          </a>
         </h3>
       </li>
       {%- endif -%}
@@ -34,9 +32,7 @@ layout: default
       {%- if item.category == "agency_portal" -%}
       <li>
         <h3>
-          <a class="post-link" href="{{ item.url | relative_url }}">
-            {{ item.title | escape }}
-          </a>
+          {{ item.title | escape }}
         </h3>
 
       </li>

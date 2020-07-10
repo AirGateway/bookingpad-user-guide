@@ -2,6 +2,7 @@
 layout: doc
 title: Overview
 category: bookingpad
+date: 2020-04-07T07:43:47.649Z
 ---
 
 **AirGateway's Bookingpad** is  NDC-ready user-faced product for travel agencies and travel professionals.
