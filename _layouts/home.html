@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<div class="search-module">
+  <div id="search-searchbar"></div>
+  <div id="search-hits"></div>
+</div>
+
 <div class="home homeGrid">
   <div>
     <h2 class="post-list-heading">{{ page.list_title | default: "Bookingpad Support" }}</h2>
@@ -42,3 +47,5 @@ layout: default
 
   </div>
 </div>
+
+{% include algolia.html %}

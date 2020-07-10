@@ -6,6 +6,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://user-guide.bookingpad.net/" # the base hostname & protocol for your site, e.g. http://example.com
 
+algolia:
+  application_id: N1HTGKTL3T
+  index_name: userguide
+  search_only_api_key: 7e7721c213f1245daa4bd287d5586f87
+
 collections:
   docs:
     permalink: "/:collection/:path/"

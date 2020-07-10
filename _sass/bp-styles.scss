@@ -63,7 +63,7 @@ body {
   }
 }
 .page-content {
-  padding: 60px 0;
+  padding: 2rem 0 3rem;
 }
 .wrapper {
   @media only screen and (min-width: 960px) {
@@ -182,7 +182,7 @@ figure {
 }
 
 footer {
-  background-color: #E9F4FF;
+  background-color: #e9f4ff;
 
   &.site-footer {
     border-top: none;
@@ -208,11 +208,34 @@ footer {
       border-radius: 5px;
       background-color: #c00005;
       color: white;
-      padding: .67rem 1rem;
+      padding: 0.67rem 1rem;
       font-weight: 800;
       font-size: 1rem;
       box-shadow: 0 4px 6px rgba(60, 60, 60, 0.11),
         0 1px 3px rgba(0, 0, 0, 0.08);
     }
+  }
+}
+
+.search-module {
+  background-color: #e9f4ff;
+  padding: 3rem 0 0;
+  margin-bottom: 3rem;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
+
+  #search-searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+
+  .ais-search-box {
+    max-width: 64%;
+  }
+
+  .ais-hits {
+    background-color: #eff7ff;
+    padding: 2rem 6rem;
   }
 }
