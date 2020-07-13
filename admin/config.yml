@@ -27,7 +27,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'Agency Portal Docs'
     label: 'Agency Portal Doc'
-    folder: '_agencyportal/docs/'
+    folder: '_agencyportal_docs/'
     create: true
     slug: '{{slug}}'
     editor:

@@ -2,6 +2,7 @@
 layout: doc
 title: Managing Developers
 category: agency_portal
+sub_category: manage-developers
 date: 2020-07-07T07:43:47.649Z
 ---
 

@@ -2,6 +2,7 @@
 layout: doc
 title: Managing Agents
 category: agency_portal
+sub_category: manage-agents
 date: 2020-09-07T07:43:47.649Z
 ---
 
