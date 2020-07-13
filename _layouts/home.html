@@ -98,16 +98,86 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title | default: "Agency Portal Support" }}</h2>
 
     <ul class="post-list catGrid">
-      {%- for item in site.docs -%}
-      {%- if item.category == "agency_portal" -%}
       <li>
         <h3>
-          {{ item.title | escape }}
+          Overview
         </h3>
-
+        <ul>
+          {%- for agencyportal_doc in site.agencyportal_docs -%}
+          {%- if agencyportal_doc.sub_category == "ap_overview" -%}
+          <li>
+            <a href="{{ agencyportal_doc.url }}">
+              {{ agencyportal_doc.title | escape }}
+            </a>
+          </li>
+          {%- endif -%}
+          {%- endfor -%}
+        </ul>
       </li>
-      {%- endif -%}
-      {%- endfor -%}
+      <li>
+        <h3>
+          Managing Airlines
+        </h3>
+        <ul>
+          {%- for agencyportal_doc in site.agencyportal_docs -%}
+          {%- if agencyportal_doc.sub_category == "manage-airlines" -%}
+          <li>
+            <a href="{{ agencyportal_doc.url }}">
+              {{ agencyportal_doc.title | escape }}
+            </a>
+          </li>
+          {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </li>
+      <li>
+        <h3>
+          Managing Agents
+        </h3>
+        <ul>
+          {%- for agencyportal_doc in site.agencyportal_docs -%}
+          {%- if agencyportal_doc.sub_category == "manage-agents" -%}
+          <li>
+            <a href="{{ agencyportal_doc.url }}">
+              {{ agencyportal_doc.title | escape }}
+            </a>
+          </li>
+          {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </li>
+      <li>
+        <h3>
+          Managing Partners
+        </h3>
+        <ul>
+          {%- for agencyportal_doc in site.agencyportal_docs -%}
+          {%- if agencyportal_doc.sub_category == "manage-partners" -%}
+          <li>
+            <a href="{{ agencyportal_doc.url }}">
+              {{ agencyportal_doc.title | escape }}
+            </a>
+          </li>
+          {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </li>
+      <li>
+        <h3>
+          Managing Developers
+        </h3>
+        <ul>
+          {%- for agencyportal_doc in site.agencyportal_docs -%}
+          {%- if agencyportal_doc.sub_category == "manage-developers" -%}
+          <li>
+            <a href="{{ agencyportal_doc.url }}">
+              {{ agencyportal_doc.title | escape }}
+            </a>
+          </li>
+          {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </li>
     </ul>
 
   </div>

@@ -12,15 +12,16 @@ algolia:
   search_only_api_key: 7e7721c213f1245daa4bd287d5586f87
 
 collections:
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
   bookingpad_docs:
     permalink: "/:collection/:path/"
     output: true
+  agencyportal_docs:
+    permalink: "/:collection/:path/"
+    output: true
+
   posts:
     permalink: "/posts/:year/:month/:day/:title/"
-    output: true
+    output: false
 
 
 twitter_username: AirGateway
