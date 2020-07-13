@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-ap
 title: Managing Airlines
 category: agency_portal
 sub_category: manage-airlines

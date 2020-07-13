@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-ap
 title: Airlines Settings
 category: agency_portal
 sub_category: manage-partners

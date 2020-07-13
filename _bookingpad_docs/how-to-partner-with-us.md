@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-bp
 title: How to Partner with Us
 category: bookingpad
 sub_category: third-parties

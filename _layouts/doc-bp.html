@@ -35,14 +35,12 @@ layout: default
       <h3 class="docNav-heading">{{ page.list_title | default: "Bookingpad Support" }}</h3>
 
       <ul class="table-of-contents">
-        {%- for item in site.docs -%}
-        {%- if item.category == "bookingpad" -%}
-        <li class="{% if item.url == page.url %}active{% endif %}">
-          <a class="post-link" href="{{ item.url | relative_url }}">
-            {{ item.title | escape }}
+        {%- for bookingpad_doc in site.bookingpad_docs -%}
+        <li class="{% if bookingpad_doc.url == page.url %}active{% endif %}">
+          <a class="post-link" href="{{ bookingpad_doc.url | relative_url }}">
+            {{ bookingpad_doc.title | escape }}
           </a>
         </li>
-        {%- endif -%}
         {%- endfor -%}
       </ul>
     </nav>

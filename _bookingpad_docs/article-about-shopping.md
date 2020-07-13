@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-bp
 title: Article about Shopping
 category: bookingpad
 sub_category: shopping-booking

@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-ap
 title: Managing Agents
 category: agency_portal
 sub_category: manage-agents

@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-bp
 title: How to Shop for an Offer
 category: bookingpad
 sub_category: shopping-booking

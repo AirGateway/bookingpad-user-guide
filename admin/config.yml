@@ -11,7 +11,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'doc' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'doc-bp' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Category', name: 'category', widget: 'hidden', default: 'bookingpad' }
       - label: "Sub-category"
@@ -33,7 +33,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'doc' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'doc-ap' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Category', name: 'category', widget: 'hidden', default: 'agency_portal' }
       - label: "Sub-category"
@@ -45,17 +45,5 @@ collections:
           - { label: "Managing Agents", value: "manage-agents" }
           - { label: "Managing Partners", value: "manage-partners" }
           - { label: "Managing Developers", value: "manage-developers" }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'Posts'
-    label: 'Posts'
-    folder: '_posts/'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }

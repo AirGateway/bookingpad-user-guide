@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-bp
 title: Corporates & Traveler Profiles Management
 category: bookingpad
 date: 2020-09-07T07:43:47.649Z

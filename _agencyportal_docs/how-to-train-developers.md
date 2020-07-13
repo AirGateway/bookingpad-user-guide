@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-ap
 title: How to Train Developers
 category: agency_portal
 sub_category: manage-developers

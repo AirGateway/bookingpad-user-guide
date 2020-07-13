@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-bp
 title: Article 01
 category: bookingpad
 sub_category: overview

@@ -23,7 +23,6 @@ collections:
     permalink: "/posts/:year/:month/:day/:title/"
     output: false
 
-
 twitter_username: AirGateway
 github_username:  AirGateway
 

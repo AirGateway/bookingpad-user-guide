@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-ap
 title: Managing Developers
 category: agency_portal
 sub_category: manage-developers
