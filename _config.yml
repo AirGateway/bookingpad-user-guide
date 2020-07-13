@@ -15,20 +15,13 @@ collections:
   docs:
     permalink: "/:collection/:path/"
     output: true
+  bookingpad_docs:
+    permalink: "/:collection/:path/"
+    output: true
   posts:
     permalink: "/posts/:year/:month/:day/:title/"
     output: true
-defaults:
-- scope:
-    path: _docs
-    type: docs
-  values:
-    layout: doc
-- scope:
-    path: _posts
-    type: posts
-  values:
-    layout: news_item
+
 
 twitter_username: AirGateway
 github_username:  AirGateway

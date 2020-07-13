@@ -10,17 +10,87 @@ layout: default
 <div class="home">
   <div class="post-category">
     <h2 class="post-list-heading">{{ page.list_title | default: "Bookingpad Support" }}</h2>
-
     <ul class="post-list catGrid">
-      {%- for item in site.docs -%}
-      {%- if item.category == "bookingpad" -%}
       <li>
         <h3>
-            {{ item.title | escape }}
+          Overview
         </h3>
+        <ul>
+          {%- for bookingpad_doc in site.bookingpad_docs -%}
+          {%- if bookingpad_doc.sub_category == "overview" -%}
+          <li>
+            <a href="{{ bookingpad_doc.url }}">
+              {{ bookingpad_doc.title | escape }}
+            </a>
+          </li>
+          {%- endif -%}
+          {%- endfor -%}
+        </ul>
       </li>
-      {%- endif -%}
-      {%- endfor -%}
+      <li class="cat-list">
+        <h3>
+          Shopping & Booking
+        </h3>
+        <ul>
+          {%- for bookingpad_doc in site.bookingpad_docs -%}
+          {%- if bookingpad_doc.sub_category == "shopping-booking" -%}
+          <li>
+            <a href="{{ bookingpad_doc.url }}">
+              {{ bookingpad_doc.title | escape }}
+            </a>
+          </li>
+          {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </li>
+      <li class="cat-list">
+        <h3>
+          Order Management & Servicing
+        </h3>
+        <ul>
+          {%- for bookingpad_doc in site.bookingpad_docs -%}
+          {%- if bookingpad_doc.sub_category == "order-management-servicing" -%}
+          <li>
+            <a href="{{ bookingpad_doc.url }}">
+              {{ bookingpad_doc.title | escape }}
+            </a>
+          </li>
+          {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </li>
+      <li class="cat-list">
+        <h3>
+          Corporates & Traveler Profiles Management
+        </h3>
+        <ul>
+          {%- for bookingpad_doc in site.bookingpad_docs -%}
+          {%- if bookingpad_doc.sub_category == "profile-management" -%}
+          <li>
+            <a href="{{ bookingpad_doc.url }}">
+              {{ bookingpad_doc.title | escape }}
+            </a>
+          </li>
+          {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </li>
+      <li class="cat-list">
+        <h3>
+          Third-Party
+        </h3>
+        <ul>
+          {%- for bookingpad_doc in site.bookingpad_docs -%}
+          {%- if bookingpad_doc.sub_category == "third-parties" -%}
+          <li>
+            <a href="{{ bookingpad_doc.url }}">
+              {{ bookingpad_doc.title | escape }}
+            </a>
+          </li>
+          {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </li>
     </ul>
 
   </div>
