@@ -5,7 +5,7 @@ media_folder: 'assets/uploads'
 collections:
   - name: 'Bookingpad Docs'
     label: 'Bookingpad Doc'
-    folder: '/bookingpad_docs'
+    folder: '/bookingpad_docs/{{ page.sub_category }}/'
     create: true
     slug: '{{slug}}'
     editor:
