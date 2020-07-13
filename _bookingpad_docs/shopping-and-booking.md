@@ -2,6 +2,7 @@
 layout: doc-bp
 title: Shopping & Booking
 category: bookingpad
+sub_category: shopping-booking
 date: 2020-06-26T19:24:31.419Z
 ---
 The **Shop** section provides the tools that would allow agents to quickly search and easily shop for offers.

@@ -26,25 +26,43 @@ body {
 
   &Nav {
     &-heading {
-      font-size: 1.34rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05rem;
+      color: #c00006;
+      font-size: 1.56rem;
+      margin-bottom: 0;
     }
     ul {
-      margin: 1em 0;
+      padding-top: 0;
+      margin: 0 0 1em;
       padding-left: 0;
       padding-right: 0;
-      border-bottom: 1px dotted #d4d4d4;
+
       li {
         margin: 0;
         padding-left: 5px;
-        border-top: 1px dotted #d4d4d4;
         list-style-image: none;
         list-style-type: none;
 
+        h4 {
+          color: #808080;
+          font-weight: 700;
+          padding-bottom: .2rem;
+          margin: 2rem 0 0.5rem;
+          text-transform: uppercase;
+          font-size: 1rem;
+          border-bottom: 4px solid #f4f4f4;
+          letter-spacing: .05rem;
+        }
+
+        ul {
+          padding-top: 0;
+          li {
+            border-bottom: 1px dotted #d4d4d4;
+          }
+        }
+
         a {
           display: block;
-          font-size: 1.23rem;
+          font-size: 1.2rem;
           padding: 14px 5px 14px 5px;
         }
 

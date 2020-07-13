@@ -35,11 +35,20 @@ layout: default
       <h3 class="docNav-heading">{{ page.list_title | default: "Bookingpad Support" }}</h3>
 
       <ul class="table-of-contents">
-        {%- for bookingpad_doc in site.bookingpad_docs -%}
-        <li class="{% if bookingpad_doc.url == page.url %}active{% endif %}">
-          <a class="post-link" href="{{ bookingpad_doc.url | relative_url }}">
-            {{ bookingpad_doc.title | escape }}
-          </a>
+        {% assign items_grouped = site.bookingpad_docs | group_by: 'sub_category' %}
+        {%- for group in items_grouped -%}
+        <li>
+          <h4>{{group.name}}</h4>
+          <ul>
+            {%- for item in group.items -%}
+
+            <li class="{% if item.url == page.url %}active{% endif %}">
+              <a class="post-link" href="{{ item.url | relative_url }}">
+                {{ item.title | escape }}
+              </a>
+            </li>
+            {%- endfor -%}
+          </ul>
         </li>
         {%- endfor -%}
       </ul>

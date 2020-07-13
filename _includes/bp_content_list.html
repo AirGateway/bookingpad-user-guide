@@ -1,0 +1,84 @@
+<div class="post-category">
+    <h2 class="post-list-heading">{{ page.list_title | default: "Bookingpad Support" }}</h2>
+
+    <ul class="post-list catGrid">
+        <li class="cat-list">
+            <h3>
+                Overview
+            </h3>
+            <ul>
+                {% assign bp-overview-docs = site.bookingpad_docs | where: "sub_category","overview" %}
+                {% for bookingpad_doc in bp-overview-docs limit:3 %}
+                <li>
+                    <a href="{{ bookingpad_doc.url }}">
+                        {{ bookingpad_doc.title | escape }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </li>
+        <li class="cat-list">
+            <h3>
+                Shopping & Booking
+            </h3>
+            <ul>
+                {% assign shopbook-docs = site.bookingpad_docs | where: "sub_category","shopping-booking" %}
+                {% for bookingpad_doc in shopbook-docs limit:3 %}
+                <li>
+                    <a href="{{ bookingpad_doc.url }}">
+                        {{ bookingpad_doc.title | escape }}
+                    </a>
+                </li>
+                {%- endfor -%}
+                <li>
+                    <a href="/">More</a>
+                </li>
+            </ul>
+        </li>
+        <li class="cat-list">
+            <h3>
+                Order Management & Servicing
+            </h3>
+            <ul>
+                {% assign order-docs = site.bookingpad_docs | where: "sub_category","order-management-servicing" %}
+                {%- for bookingpad_doc in order-docs limit:3 -%}
+                <li>
+                    <a href="{{ bookingpad_doc.url }}">
+                        {{ bookingpad_doc.title | escape }}
+                    </a>
+                </li>
+                {%- endfor -%}
+            </ul>
+        </li>
+        <li class="cat-list">
+            <h3>
+                Corporates & Traveler Profiles Management
+            </h3>
+            <ul>
+                {% assign profile-docs = site.bookingpad_docs | where: "sub_category","profile-management" %}
+                {%- for bookingpad_doc in profile-docs limit:3 -%}
+                <li>
+                    <a href="{{ bookingpad_doc.url }}">
+                        {{ bookingpad_doc.title | escape }}
+                    </a>
+                </li>
+                {%- endfor -%}
+            </ul>
+        </li>
+        <li class="cat-list">
+            <h3>
+                Third-Party
+            </h3>
+            <ul>
+                {% assign thirdparty-docs = site.bookingpad_docs | where: "sub_category","third-parties" %}
+                {%- for bookingpad_doc in thirdparty-docs limit:3 -%}
+                <li>
+                    <a href="{{ bookingpad_doc.url }}">
+                        {{ bookingpad_doc.title | escape }}
+                    </a>
+                </li>
+                {%- endfor -%}
+            </ul>
+        </li>
+    </ul>
+</div>
