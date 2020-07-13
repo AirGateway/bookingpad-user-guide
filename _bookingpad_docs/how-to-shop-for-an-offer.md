@@ -3,7 +3,7 @@ layout: doc-bp
 title: How to Shop for an Offer
 category: bookingpad
 sub_category: shopping-booking
-date: 2020-07-13T09:16:14.546Z
+date: 2020-07-11T09:16:14.546Z
 ---
 # Icarus
 
