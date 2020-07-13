@@ -18,10 +18,11 @@ collections:
   agencyportal_docs:
     permalink: "/:collection/:path/"
     output: true
-
   posts:
     permalink: "/posts/:year/:month/:day/:title/"
     output: false
+  category:
+    output: true
 
 twitter_username: AirGateway
 github_username:  AirGateway

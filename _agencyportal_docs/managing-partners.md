@@ -1,6 +1,6 @@
 ---
 layout: doc-ap
-title: Airlines Settings
+title: Manage Partners
 category: agency_portal
 sub_category: manage-partners
 date: 2020-07-07T07:43:48.649Z
