@@ -27,6 +27,8 @@ collections:
 twitter_username: AirGateway
 github_username:  AirGateway
 
+show_dir_listing    : false
+
 # Build settings
 # theme: minima
 plugins:
