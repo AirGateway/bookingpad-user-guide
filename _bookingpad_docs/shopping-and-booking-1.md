@@ -5,6 +5,10 @@ category: bookingpad
 sub_category: shopping-booking
 date: 2020-09-15T15:49:26.394Z
 ---
+
+
+
+
 To shop, select a Search type from the menu:
 
 \[image of the dropdown - Web Search]
@@ -160,3 +164,30 @@ Click **Options** to view the trip options available:
 Click **Open** to open the offer in a new tab and proceed to booking (refer to [On-Hold Bookings](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.44sinio) or [Instantly-Issued Bookings](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.z337ya)).
 
 **\[image]**
+
+## **On-Hold Bookings**
+
+Once an offer has been chosen from shopping, follow these steps to make an on-hold booking.
+
+1. From the Offer page, click **Start Booking** at the bottom of the page.
+2. Complete/confirm the passenger information required by the airline.
+
+   [**Note:** Optional information not provided at this stage will be required when issuing the on-hold booking.
+
+   **\[image]**
+3. If required, click Select special services. Select and provide comments for each required special service.
+
+   [**Note:** If booking a Round-Trip or Multi-City Trip, the service must be selected for each leg of the trip. User the tabs at the top of the form to select the leg.]
+
+   **\[image]**
+4. Click **Next.**
+5. Review the information on the Reservation page. From this page you can **Select Seats,** and **Select Services.**
+
+   **\[image]**
+6. Leave Payment type set to **None**.
+7. Click **Reserve.**
+8. The page will display the Order Details, with a yellow **ON-HOLD** status badge on the right hand side.
+
+   **\[image]**
+
+## **Issuing On-Hold Bookings**
