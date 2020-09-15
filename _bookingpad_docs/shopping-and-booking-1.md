@@ -5,10 +5,6 @@ category: bookingpad
 sub_category: shopping-booking
 date: 2020-09-15T15:49:26.394Z
 ---
-
-
-
-
 To shop, select a Search type from the menu:
 
 \[image of the dropdown - Web Search]
@@ -191,3 +187,58 @@ Once an offer has been chosen from shopping, follow these steps to make an on-ho
    **\[image]**
 
 ## **Issuing On-Hold Bookings**
+
+Follow these steps to issue an on-hold booking.
+
+1. From the Order Details page (refer to [Order Management and Servicing](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.1y810tw) for help finding an on-hold booking), click **Ticket Issue** at the bottom of the page.
+
+   **\[image]**
+2. The **Fill payment data** form will appear. Select the **Payment method** and enter the required payment details (refer to [Payment](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.3j2qqm3) for help on this topic).
+3. Click **Proceed.**
+4. Bookingpad will confirm an auto-issued booking, and the page will display the Order Details, with a blue **TICKETED** status badge on the right hand side.
+
+   **\[image]**
+
+## **Instantly-Issued Bookings**
+
+Once an offer has been chosen from shopping, follow these steps to instantly issue a booking.
+
+1. From the Offer page, click **Start Booking** at the bottom of the page.
+2. Complete/confirm the passenger information required by the airline.
+
+   **\[image]**
+3. If required, click **Select special services**. Select and provide comments for each required special service.
+
+   [**Note:** If booking a Round-Trip or Multi-City Trip, the service must be selected for each leg of the trip. User the tabs at the top of the form to select the leg.]
+
+   **\[image]**
+4. Click **Next.**
+5. Review the information on the Reservation page. From this page you can **Select Seats,** and **Select Services.**
+
+   **\[image]**
+6. Under Payment, click **(change).**
+7. The **Fill payment data** form will appear. Select the **Payment method** and enter the required payment details (refer to [Payment](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.3j2qqm3) for help on this topic).
+8. Click **Proceed.**
+9. Bookingpad will confirm an auto-issued booking, and the page will display the Order Details, with a blue **TICKETED** status badge on the right hand side.
+
+   **\[image]**
+
+## Payment
+
+When issuing a booking, you will be required to provide a form of payment in the Fill payment data form.\
+\
+**\[image]**
+
+### Agency Card
+
+This will use the agency credit card associated with the agency profile. This payment method is especially useful to pay non-BSP/ARC airlines while keeping the agency as MoR.
+
+### **Agency Cash**
+
+This payment method enables the agency to pay with their BSP/ARC which is processed by the airline.
+
+### Customer Card
+
+Use this method to provide the airline with a customer credit or debit card. The payment is handled by the airline.
+
+**\[image]**
