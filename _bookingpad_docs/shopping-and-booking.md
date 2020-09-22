@@ -98,13 +98,13 @@ Once a search has been entered, the results will be displayed in the following s
 
 Use the filters sidebar to filter results by specific criteria.
 
-**[Note:** By default, the filter options are expanded to show the options available (checkboxes or sliders). Collapse or expand the filters as required.**]**
+> **Note:** By default, the filter options are expanded to show the options available (checkboxes or sliders). Collapse or expand the filters as required.
 
 ### **Overview Pane**
 
 The Overview pane provides a high-level overview of results, allowing you to quickly filter offers by airline (left hand column) and cabin or fare (top row).
 
-[**Note:** By default, the Overview pane groups offers by Cabin type.]
+> **Note:** By default, the Overview pane groups offers by Cabin type.
 
 #### **Group by cabin:**
 
@@ -129,7 +129,7 @@ Select any of the checkboxes in the Overview pane to filter offers. The Offer Li
 
 #### **Offers List**
 
-**[Note:** By default, the Offers List displays offers for the full trip.**]**
+> **Note:** By default, the Offers List displays offers for the full trip.
 
 **\[image]**
 
@@ -173,7 +173,7 @@ Once an offer has been chosen from shopping, follow these steps to make an on-ho
    **\[image]**
 3. If required, click Select special services. Select and provide comments for each required special service.
 
-   [**Note:** If booking a Round-Trip or Multi-City Trip, the service must be selected for each leg of the trip. User the tabs at the top of the form to select the leg.]
+   > **Note:** If booking a Round-Trip or Multi-City Trip, the service must be selected for each leg of the trip. User the tabs at the top of the form to select the leg.
 
    **\[image]**
 4. Click **Next.**
@@ -209,7 +209,7 @@ Once an offer has been chosen from shopping, follow these steps to instantly iss
    **\[image]**
 3. If required, click **Select special services**. Select and provide comments for each required special service.
 
-   [**Note:** If booking a Round-Trip or Multi-City Trip, the service must be selected for each leg of the trip. User the tabs at the top of the form to select the leg.]
+   > **Note:** If booking a Round-Trip or Multi-City Trip, the service must be selected for each leg of the trip. User the tabs at the top of the form to select the leg.
 
    **\[image]**
 4. Click **Next.**

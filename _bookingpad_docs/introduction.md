@@ -19,13 +19,14 @@ User access is managed by Superagents via the AirGateway Agency Portal.
 2. An email invitation will be sent to the new user. Follow the instructions and complete the Bookingpad Sign-Up Form.
 3. Once completed, the new user can access Bookingpad from any location using a Web browser (refer to Log In).
 
-   TIP: For the best compatibility and user experience, we recommend using Google Chrome.
+   > TIP: For the best compatibility and user experience, we recommend
+   using Google Chrome.
 
 ### Log In
 
 1. Once registered, go to [Bookingpad.](https://app.airgateway.net/)
-
    ![Log in screen of Bookingpad](/assets/uploads/bp-login.png)
+
 2. Enter your:
 
    * Username
