@@ -24,6 +24,8 @@ User access is managed by Superagents via the AirGateway Agency Portal.
 ### Log In
 
 1. Once registered, go to [Bookingpad.](https://app.airgateway.net/)
+
+   ![Log in screen of Bookingpad](/assets/uploads/bp-login.png)
 2. Enter your:
 
    * Username
