@@ -60,14 +60,14 @@ To shop, select a Search type from the menu:
 
 ## **GDS Search**
 
-**\[image]**
+![Screenshot of GDS search module](/assets/uploads/bp-gds-searchbar.png)
 
 Bookingpad currently supports Amadeus GDS commands.
 
 1. Enter a GDS availability search command.
 
    **[Example:** AN28AUGMADJFK17P/XZRH*31AUGJFKBCN2100/FN**]**
-2. Click **Search** (refer to Interacting with Shopping Results).
+2. Click **Search** (refer to [Interacting with Shopping Results](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.90eq029lsfyw)).
 
 ## **PNR Search**
 
