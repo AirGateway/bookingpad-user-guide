@@ -7,7 +7,7 @@ date: 2020-09-15T15:49:26.394Z
 ---
 To shop, select a Search type from the menu:
 
-\[image of the dropdown - Web Search]
+![Search type menu screenshot](/assets/uploads/bp-menu-search-type.png)
 
 **Note:** The default Search type is Web Search.
 
