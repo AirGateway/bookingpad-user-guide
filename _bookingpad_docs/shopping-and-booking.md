@@ -62,7 +62,7 @@ To shop, select a Search type from the menu:
 
 ![Screenshot of GDS search module](/assets/uploads/bp-gds-searchbar.png)
 
-Bookingpad currently supports Amadeus GDS commands.
+Bookingpad currently supports **Amadeus GDS commands**.
 
 1. Enter a GDS availability search command.
 
@@ -88,7 +88,7 @@ Bookingpad currently supports Amadeus GDS commands.
 
 Once a search has been entered, the results will be displayed in the following screen:
 
-**\[image]**
+![](/assets/uploads/results-labeled.png)
 
 1. **Filters Sidebar** (refer to Filters Sidebar)
 2. **Overview Pane** (refer to Overview Pane)
