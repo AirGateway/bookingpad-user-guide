@@ -97,7 +97,7 @@ Once a search has been entered, the results will be displayed in the following s
 
 ### **Filters Sidebar**
 
-**\[image]**
+![Filters](/assets/uploads/bp-filters-bar.png)
 
 Use the filters sidebar to filter results by specific criteria.
 
