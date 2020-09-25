@@ -9,7 +9,7 @@ date: 2020-03-07T07:43:47.649Z
 
 ## Manage Agents
 
-In this section, Agenciees can do the following:
+In this section, Agencies can do the following:
 
 * See the access granted agents list status and privilege level
 * Invite new agents
