@@ -117,7 +117,9 @@ The Overview pane provides a high-level overview of results, allowing you to qui
 
 Click Group by fare from the drop-down menu at the top right of the Overview pane to view offers by fare.
 
-**\[image]**
+
+
+![](/assets/uploads/bp-overview-fare.png)
 
 #### **Color coding**
 
