@@ -111,7 +111,7 @@ The Overview pane provides a high-level overview of results, allowing you to qui
 
 #### **Group by cabin:**
 
-**\[image]**
+![](/assets/uploads/bp-overview.png)
 
 #### **Group by fare:**
 
