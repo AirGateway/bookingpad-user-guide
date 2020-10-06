@@ -28,35 +28,30 @@ To shop, select a Search type from the menu:
 
    Select resident or large family information
 9. **Search to view results**
+10. Select **Trip Type:**
+11. Select number of passengers using the (-) and (+) icons:
 
+    ![](/assets/uploads/bp-passengers.png)
+12. Select **Cabin Type:**
 
+    ![](/assets/uploads/bp-cabin-type.png)
+13. If applicable, select **Fare Type** from the drop-down list or leave as **No Preference.**
+14. Enter any applicable **Corporate Discount Codes.**
+15. Enter the **Departing Airport** and **Arriving Airport** codes:
 
-1. Select **Trip Type:**
-2. Select number of passengers using the (-) and (+) icons:
+    ![](/assets/uploads/bp-airports.png)
+16. Use the calendar to select the **Departure Date:**
 
+    ![](/assets/uploads/bp-datepicker.png)
+17. If applicable, click **Show special discounts** to enter:
 
-   ![](/assets/uploads/bp-passengers.png)
-3. Select **Cabin Type:**
+    1. **Resident** information:
 
+       ![](/assets/uploads/bp-spl-discout-01.png)
+    2. **Large family** information:
 
-   ![](/assets/uploads/bp-cabin-type.png)
-4. If applicable, select **Fare Type** from the drop-down list or leave as **No Preference.**
-5. Enter any applicable **Corporate Discount Codes.**
-6. Enter the **Departing Airport** and **Arriving Airport** codes:
-
-   ![](/assets/uploads/bp-airports.png)
-7. Use the calendar to select the **Departure Date:**
-
-   ![](/assets/uploads/bp-datepicker.png)
-8. If applicable, click **Show special discounts** to enter:
-
-   1. **Resident** information:
-
-      ![](/assets/uploads/bp-spl-discout-01.png)
-   2. **Large family** information:
-
-      ![](/assets/uploads/bp-spl-discout-02.png)
-9. Click **Search** to view results (refer to Interacting with Shopping Results).
+       ![](/assets/uploads/bp-spl-discout-02.png)
+18. Click **Search** to view results (refer to Interacting with Shopping Results).
 
 ## **GDS Search**
 
@@ -73,16 +68,22 @@ Bookingpad currently supports **Amadeus GDS commands**.
 
 1. Enter PNR data into the text box.
 
-   **\[image]**
+
+
+   ![](/assets/uploads/bp-pnr-data.png)
 2. If required, adjust the PNR data and click **Apply Changes**.
 
-   **\[image]**
+
+
+   ![](/assets/uploads/bp-pnr-data-update.png)
 3. Adjust the Passengers and Flight type as required.
 
-   **\[image]**
-4. Click Search (refer to [Interacting with Shopping Results](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.90eq029lsfyw)).
 
-   **\[image]**
+
+   ![](/assets/uploads/bp-pnr-passengers.png)
+
+   ![](/assets/uploads/bp-pnr-flight-type.png)
+4. Click Search (refer to [Interacting with Shopping Results](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.90eq029lsfyw)).
 
 ## **Interacting with Shopping Results**
 
@@ -116,8 +117,6 @@ The Overview pane provides a high-level overview of results, allowing you to qui
 #### **Group by fare:**
 
 Click Group by fare from the drop-down menu at the top right of the Overview pane to view offers by fare.
-
-
 
 ![](/assets/uploads/bp-overview-fare.png)
 
