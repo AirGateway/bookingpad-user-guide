@@ -7,7 +7,7 @@ date: 2020-10-06T16:21:36.076Z
 ---
 ### **Main Menu**
 
-\[Screenshot of main top-right navigation menu]
+![Main Nav Top Right](/assets/uploads/bp-main-top-right-nav.png)
 
 1. **Shop:** Search and shop (refer to Shopping and Booking).
 
@@ -19,6 +19,6 @@ date: 2020-10-06T16:21:36.076Z
 
 ### **Get Help**
 
-\[Screenshot of Customer Support Icon]
+![Customer Service Widget](/assets/uploads/bp-customer-service.png)
 
 Click the **Customer Support Icon** at the bottom-right of any page to ask a question or request help from the Bookingpad team.
