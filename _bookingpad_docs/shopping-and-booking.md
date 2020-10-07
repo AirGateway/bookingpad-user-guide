@@ -13,7 +13,7 @@ To shop, select a Search type from the menu:
 
 ## Web Search
 
-\[image of the Search module]
+![Web Search Diagram](/assets/uploads/bp-web-search-diagra.png)
 
 1. **Trip Type**
 2. **Passengers**
@@ -68,17 +68,11 @@ Bookingpad currently supports **Amadeus GDS commands**.
 
 1. Enter PNR data into the text box.
 
-
-
    ![](/assets/uploads/bp-pnr-data.png)
 2. If required, adjust the PNR data and click **Apply Changes**.
 
-
-
    ![](/assets/uploads/bp-pnr-data-update.png)
 3. Adjust the Passengers and Flight type as required.
-
-
 
    ![](/assets/uploads/bp-pnr-passengers.png)
 
