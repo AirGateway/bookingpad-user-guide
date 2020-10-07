@@ -28,22 +28,28 @@ To shop, select a Search type from the menu:
 
    Select resident or large family information
 9. **Search to view results**
-10. Select **Trip Type:**
-11. Select number of passengers using the (-) and (+) icons:
 
-    ![](/assets/uploads/bp-passengers.png)
-12. Select **Cabin Type:**
+
+
+   Select **Trip Type:**
+
+   ![](/assets/uploads/bp-pnr-flight-type.png)
+
+   Select number of passengers using the (-) and (+) icons:
+
+   ![](/assets/uploads/bp-passengers.png)
+10. Select **Cabin Type:**
 
     ![](/assets/uploads/bp-cabin-type.png)
-13. If applicable, select **Fare Type** from the drop-down list or leave as **No Preference.**
-14. Enter any applicable **Corporate Discount Codes.**
-15. Enter the **Departing Airport** and **Arriving Airport** codes:
+11. If applicable, select **Fare Type** from the drop-down list or leave as **No Preference.**
+12. Enter any applicable **Corporate Discount Codes.**
+13. Enter the **Departing Airport** and **Arriving Airport** codes:
 
     ![](/assets/uploads/bp-airports.png)
-16. Use the calendar to select the **Departure Date:**
+14. Use the calendar to select the **Departure Date:**
 
     ![](/assets/uploads/bp-datepicker.png)
-17. If applicable, click **Show special discounts** to enter:
+15. If applicable, click **Show special discounts** to enter:
 
     1. **Resident** information:
 
@@ -51,7 +57,7 @@ To shop, select a Search type from the menu:
     2. **Large family** information:
 
        ![](/assets/uploads/bp-spl-discout-02.png)
-18. Click **Search** to view results (refer to Interacting with Shopping Results).
+16. Click **Search** to view results (refer to Interacting with Shopping Results).
 
 ## **GDS Search**
 
