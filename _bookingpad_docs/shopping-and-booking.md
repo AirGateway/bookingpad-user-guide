@@ -29,8 +29,6 @@ To shop, select a Search type from the menu:
    Select resident or large family information
 9. **Search to view results**
 
-
-
    Select **Trip Type:**
 
    ![](/assets/uploads/bp-pnr-flight-type.png)
@@ -135,17 +133,17 @@ Select any of the checkboxes in the Overview pane to filter offers. The Offer Li
 
 > **Note:** By default, the Offers List displays offers for the full trip.
 
-**\[image]**
+![](/assets/uploads/bp-sort-default.png)
 
 Use the checkbox next to a trip segment to view all offers with the same trip segment (same flight for one of the segments of the trip).
 
-**\[image]**
+![](/assets/uploads/br-select-flight.png)
 
 Click **Per Segment** to shop for offers by one segment of the trip at a time.
 
 **[Note:** The Per Segment option is only available where a Trip Type of Round-Trip or Multi-City has been selected.**]**
 
-**\[image]**
+![](/assets/uploads/bp-per-segment.png)
 
 Use the Sort By drop-down menu to sort offers by price, departure, arrival or segment journey time.
 
@@ -153,13 +151,17 @@ Use the Sort By drop-down menu to sort offers by price, departure, arrival or se
 
 The following information is shown at the bottom of each offer:
 
-**\[image]**
+
+
+![](/assets/uploads/bp-actions-per-offer.png)
 
 Take note of the offer expiry time countdown when shopping.
 
 Click **Options** to view the trip options available:
 
-**\[image]**
+
+
+![](/assets/uploads/bp-offer-new-tab.png)
 
 Click **Open** to open the offer in a new tab and proceed to booking (refer to [On-Hold Bookings](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.44sinio) or [Instantly-Issued Bookings](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.z337ya)).
 
