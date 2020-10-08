@@ -151,15 +151,11 @@ Use the Sort By drop-down menu to sort offers by price, departure, arrival or se
 
 The following information is shown at the bottom of each offer:
 
-
-
 ![](/assets/uploads/bp-actions-per-offer.png)
 
 Take note of the offer expiry time countdown when shopping.
 
 Click **Options** to view the trip options available:
-
-
 
 ![](/assets/uploads/bp-offer-new-tab.png)
 
@@ -176,21 +172,25 @@ Once an offer has been chosen from shopping, follow these steps to make an on-ho
 
    [**Note:** Optional information not provided at this stage will be required when issuing the on-hold booking.
 
-   **\[image]**
+
+
+   ![](/assets/uploads/bp-pax-02.png)
 3. If required, click Select special services. Select and provide comments for each required special service.
 
    > **Note:** If booking a Round-Trip or Multi-City Trip, the service must be selected for each leg of the trip. User the tabs at the top of the form to select the leg.
 
-   **\[image]**
+   ![](/assets/uploads/bp-select-services.png)
 4. Click **Next.**
 5. Review the information on the Reservation page. From this page you can **Select Seats,** and **Select Services.**
 
-   **\[image]**
+   ![](/assets/uploads/bp-reservation-02.png)
 6. Leave Payment type set to **None**.
 7. Click **Reserve.**
 8. The page will display the Order Details, with a yellow **ON-HOLD** status badge on the right hand side.
 
-   **\[image]**
+
+
+   ![](/assets/uploads/bp-onhold.png)
 
 ## **Issuing On-Hold Bookings**
 
