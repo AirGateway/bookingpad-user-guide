@@ -7,7 +7,9 @@ date: 2020-09-15T17:12:03.689Z
 ---
 The Order tab enables you to view, search and manage all existing Orders across all airlines.
 
-**\[image]**
+
+
+![](/assets/uploads/bp-order-tab-main.png)
 
 Use the tabs at the top of the page to filter orders by status:
 
@@ -21,13 +23,15 @@ Use the tabs at the top of the page to filter orders by status:
 
 Use the **Scope** filter to filter by bookings you have entered (colleagues bookings will not be displayed), and the **Sort By** drop-down menu to customize your list view.
 
-**\[image]**
+
+
+![](/assets/uploads/bp-scope-filter.png)
 
 ## **Order Search**
 
 Use the Search tab to search for an order, by entering any of the information you have available.
 
-**\[image]**
+![](/assets/uploads/bp-search-orders.png)
 
 The order list displays the following information:
 
@@ -47,37 +51,37 @@ The order list displays the following information:
 
 To view an order, click the action icon on the right hand side of the order list. The Order Details page will be displayed.
 
-**\[image]**
+![](/assets/uploads/bp-order-detail.png)
 
 Use the tabs at the top of the page to view additional order information.
 
 ### **Order History**
 
-**\[image]**
+![](/assets/uploads/bp-order-history.png)
 
 This tab displays the date, time and agent for each stage of the order status (created, reserved, ticketed, amendment, upgrades and cancelled).
 
 ### Comments
 
-**\[image]**
+![](/assets/uploads/bp-comments.png)
 
 This tab is for internal reference only. Use the comment box provided to leave comments relating to the order for you and your colleagues.
 
 ### **Remarks**
 
-**\[image]**
+![](/assets/uploads/bp-remarks.png)
 
 Remarks are exported to third-party systems. Use the remarks box as required for notes to appear in third-party systems.
 
 ### **Order Log**
 
-**\[image]**
+![](/assets/uploads/bp-order-log.png)
 
 The order log tab lists the error and warning messages generated throughout the order.
 
 ### **Order Actions**
 
-**\[image]**
+![](/assets/uploads/bp-other-actions.png)
 
 The available order actions are displayed at the bottom of the page (refer to [Amend an Issued Order](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.1ci93xb) or [Cancel and Refund an Order](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.4i7ojhp) for help on these topics):
 
@@ -89,13 +93,15 @@ The available order actions are displayed at the bottom of the page (refer to [A
 
 ### **Order Tools**
 
-**\[image]**
+
+
+![](/assets/uploads/bp-order-tools.png)
 
 The available order tools are displayed at the top of the page.
 
 #### **Export**
 
-**\[image]**
+![](/assets/uploads/bp-export-to.png)
 
 Use this tool to export NDC Bookings to third-party supported formats:
 
@@ -104,9 +110,9 @@ Use this tool to export NDC Bookings to third-party supported formats:
 
 #### **Download PDF**
 
-**\[image]**
+![](/assets/uploads/bp-pdf-pdf-dropdown.png)
 
-Select the information required, and click Download PDF.
+Select the information required, and click **Download PDF**.
 
 #### **Search Again**
 
@@ -122,33 +128,33 @@ Use the **Orders > Search** function to quickly find the Issued Booking to be ca
 
 Under **Order Details, Fare Rules,** any restrictions on cancellations and refunds will be displayed.
 
-**\[image]**
+![](/assets/uploads/bp-farerules-cancel.png)
 
 If accepted, follow the steps below:
 
 1. Click the **Cancel Order** button at the bottom of the Order Details page.
 
-   **\[image]**
+   ![](/assets/uploads/bp-cancel-order-btn.png)
 2. A cancellation summary will appear, with a breakdown of the fare to be refunded.
 
-   **\[image]**
+   ![](/assets/uploads/bp-order-cancel-details.png)
 3. Click **Refund and Cancel Order.**
 
    **[Warning:** This action cannot be undone. A booking cannot be re-issued once cancelled.]
 4. A success message will be displayed. Click **Close window** to dismiss.
 
-   **\[image]**
-5. Confirmation of the cancelled booking will be displayed in two locations:
+   ![](/assets/uploads/bp-order-cancel-confirmation.png)
 
-   **Order Details,** a red CANCELLED status badge will be displayed on the right hand side:
+   Confirmation of the cancelled booking will be displayed in two locations:
+5. **Order Details,** a red CANCELLED status badge will be displayed on the right hand side:
 
-   **\[image]**
+   ![](/assets/uploads/bp-order-details-cancelled.png)
 
    **Order History,** as **OrderCancelled:**
 
-   **\[image]**
+   ![](/assets/uploads/bp-order-history-cancelled.png)
 
-## **On-Hold Bookings**
+   ## **On-Hold Bookings**
 
 Use the **Orders > On Hold** tab to quickly find the On-Hold Booking to be issued.
 
