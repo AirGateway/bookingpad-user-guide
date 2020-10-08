@@ -172,8 +172,6 @@ Once an offer has been chosen from shopping, follow these steps to make an on-ho
 
    [**Note:** Optional information not provided at this stage will be required when issuing the on-hold booking.
 
-
-
    ![](/assets/uploads/bp-pax-02.png)
 3. If required, click Select special services. Select and provide comments for each required special service.
 
@@ -188,8 +186,6 @@ Once an offer has been chosen from shopping, follow these steps to make an on-ho
 7. Click **Reserve.**
 8. The page will display the Order Details, with a yellow **ON-HOLD** status badge on the right hand side.
 
-
-
    ![](/assets/uploads/bp-onhold.png)
 
 ## **Issuing On-Hold Bookings**
@@ -198,14 +194,10 @@ Follow these steps to issue an on-hold booking.
 
 1. From the Order Details page (refer to [Order Management and Servicing](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.1y810tw) for help finding an on-hold booking), click **Ticket Issue** at the bottom of the page.
 
-
-
    ![](/assets/uploads/bp-onhold.png)
 2. The **Fill payment data** form will appear. Select the **Payment method** and enter the required payment details (refer to [Payment](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.3j2qqm3) for help on this topic).
 3. Click **Proceed.**
 4. Bookingpad will confirm an auto-issued booking, and the page will display the Order Details, with a blue **TICKETED** status badge on the right hand side.
-
-
 
    ![](/assets/uploads/bp-ticketed.png)
 
@@ -216,20 +208,14 @@ Once an offer has been chosen from shopping, follow these steps to instantly iss
 1. From the Offer page, click **Start Booking** at the bottom of the page.
 2. Complete/confirm the passenger information required by the airline.
 
-
-
    ![](/assets/uploads/bp-pax-02.png)
 3. If required, click **Select special services**. Select and provide comments for each required special service.
 
    > **Note:** If booking a Round-Trip or Multi-City Trip, the service must be selected for each leg of the trip. User the tabs at the top of the form to select the leg.
 
-
-
    ![](/assets/uploads/bp-select-services.png)
 4. Click **Next.**
 5. Review the information on the Reservation page. From this page you can **Select Seats,** and **Select Services.**
-
-
 
    ![](/assets/uploads/bp-reservation-02.png)
 6. Under Payment, click **(change).**
@@ -237,15 +223,13 @@ Once an offer has been chosen from shopping, follow these steps to instantly iss
 8. Click **Proceed.**
 9. Bookingpad will confirm an auto-issued booking, and the page will display the Order Details, with a blue **TICKETED** status badge on the right hand side.
 
-
-
    ![](/assets/uploads/bp-ticketed.png)
 
 ## Payment
 
-When issuing a booking, you will be required to provide a form of payment in the Fill payment data form.\
-\
-**\[image]**
+When issuing a booking, you will be required to provide a form of payment in the Fill payment data form.
+
+![](/assets/uploads/bp-agency-card-modal.png)
 
 ### Agency Card
 
@@ -259,4 +243,4 @@ This payment method enables the agency to pay with their BSP/ARC which is proces
 
 Use this method to provide the airline with a customer credit or debit card. The payment is handled by the airline.
 
-**\[image]**
+![](/assets/uploads/bp-custom-card-modal.png)
