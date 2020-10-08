@@ -198,12 +198,16 @@ Follow these steps to issue an on-hold booking.
 
 1. From the Order Details page (refer to [Order Management and Servicing](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.1y810tw) for help finding an on-hold booking), click **Ticket Issue** at the bottom of the page.
 
-   **\[image]**
+
+
+   ![](/assets/uploads/bp-onhold.png)
 2. The **Fill payment data** form will appear. Select the **Payment method** and enter the required payment details (refer to [Payment](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.3j2qqm3) for help on this topic).
 3. Click **Proceed.**
 4. Bookingpad will confirm an auto-issued booking, and the page will display the Order Details, with a blue **TICKETED** status badge on the right hand side.
 
-   **\[image]**
+
+
+   ![](/assets/uploads/bp-ticketed.png)
 
 ## **Instantly-Issued Bookings**
 
@@ -212,22 +216,30 @@ Once an offer has been chosen from shopping, follow these steps to instantly iss
 1. From the Offer page, click **Start Booking** at the bottom of the page.
 2. Complete/confirm the passenger information required by the airline.
 
-   **\[image]**
+
+
+   ![](/assets/uploads/bp-pax-02.png)
 3. If required, click **Select special services**. Select and provide comments for each required special service.
 
    > **Note:** If booking a Round-Trip or Multi-City Trip, the service must be selected for each leg of the trip. User the tabs at the top of the form to select the leg.
 
-   **\[image]**
+
+
+   ![](/assets/uploads/bp-select-services.png)
 4. Click **Next.**
 5. Review the information on the Reservation page. From this page you can **Select Seats,** and **Select Services.**
 
-   **\[image]**
+
+
+   ![](/assets/uploads/bp-reservation-02.png)
 6. Under Payment, click **(change).**
 7. The **Fill payment data** form will appear. Select the **Payment method** and enter the required payment details (refer to [Payment](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.3j2qqm3) for help on this topic).
 8. Click **Proceed.**
 9. Bookingpad will confirm an auto-issued booking, and the page will display the Order Details, with a blue **TICKETED** status badge on the right hand side.
 
-   **\[image]**
+
+
+   ![](/assets/uploads/bp-ticketed.png)
 
 ## Payment
 
