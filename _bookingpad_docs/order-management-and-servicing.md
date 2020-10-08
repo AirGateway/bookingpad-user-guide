@@ -158,11 +158,11 @@ If accepted, follow the steps below:
 
 Use the **Orders > On Hold** tab to quickly find the On-Hold Booking to be issued.
 
-**\[image]**
+![](/assets/uploads/bp-on-hold-tab.png)
 
-Use the **Scope** filter to filter by bookings you have entered (other agents bookings will not be displayed), and the **Sort By** drop-down menu to customize your list view.\
-\
-**\[image]**
+Use the **Scope** filter to filter by bookings you have entered (other agents bookings will not be displayed), and the **Sort By** drop-down menu to customize your list view.
+
+![](/assets/uploads/bp-scope-sort.png)
 
 Refer to [Issuing On-Hold Bookings](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.2jxsxqh) to issue the booking.
 
@@ -172,7 +172,7 @@ Use the **Orders > Search** function to quickly find the Issued Booking to be am
 
 At the bottom of the Order Details, the available order actions are displayed:
 
-**\[image]**
+![](/assets/uploads/bp-other-actions.png)
 
 ### **Select Services**
 
@@ -180,20 +180,22 @@ Click **Select Services** to view additional services available from the airline
 
 1. Select the services required.
 
-   **\[image]**
-2. Click **Next.**
-3. A summary of selected services will be displayed. Review, confirm or remove selected services as required.
+   ![](/assets/uploads/bp-select-remove-services.png)
+
+   Click **Next.**
+2. A summary of selected services will be displayed. Review, confirm or remove selected services as required.
+
+   ![](/assets/uploads/bp-confirm-selected-services.png)
+
+   Click **Payment** to proceed.
+3. The **Fill payment data** form will appear. Select the **Payment method** and enter the required payment details (refer to [Payment](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.3j2qqm3) for help on this topic).
 
    **\[image]**
-4. Click **Payment** to proceed.
-5. The **Fill payment data** form will appear. Select the **Payment method** and enter the required payment details (refer to [Payment](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.3j2qqm3) for help on this topic).
+4. Click **Proceed.**
+5. A success message will be displayed. Click **OK** to dismiss.
 
    **\[image]**
-6. Click **Proceed.**
-7. A success message will be displayed. Click **OK** to dismiss.
-
-   **\[image]**
-8. Confirmation of the additional services will be displayed in two locations:
+6. Confirmation of the additional services will be displayed in two locations:
 
    **Order Details,** under **Ancillaries:**
 
