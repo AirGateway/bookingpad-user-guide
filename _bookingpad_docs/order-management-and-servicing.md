@@ -93,8 +93,6 @@ The available order actions are displayed at the bottom of the page (refer to [A
 
 ### **Order Tools**
 
-
-
 ![](/assets/uploads/bp-order-tools.png)
 
 The available order tools are displayed at the top of the page.
@@ -181,29 +179,30 @@ Click **Select Services** to view additional services available from the airline
 1. Select the services required.
 
    ![](/assets/uploads/bp-select-remove-services.png)
-
-   Click **Next.**
-2. A summary of selected services will be displayed. Review, confirm or remove selected services as required.
+2. Click **Next.**
+3. A summary of selected services will be displayed. Review, confirm or remove selected services as required.
 
    ![](/assets/uploads/bp-confirm-selected-services.png)
 
-   Click **Payment** to proceed.
-3. The **Fill payment data** form will appear. Select the **Payment method** and enter the required payment details (refer to [Payment](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.3j2qqm3) for help on this topic).
+4. Click **Payment** to proceed.
+5. The **Fill payment data** form will appear. Select the **Payment method** and enter the required payment details (refer to [Payment](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.3j2qqm3) for help on this topic).
 
-   **\[image]**
-4. Click **Proceed.**
-5. A success message will be displayed. Click **OK** to dismiss.
+   ![](/assets/uploads/bp-payment-form-custom-card.png)
 
-   **\[image]**
-6. Confirmation of the additional services will be displayed in two locations:
+6. Click **Proceed.**
+7. A success message will be displayed. Click **OK** to dismiss.
+
+   ![](/assets/uploads/bp-select-services-success.png)
+
+8. Confirmation of the additional services will be displayed in two locations:
 
    **Order Details,** under **Ancillaries:**
 
-   **\[image]**
+   ![](/assets/uploads/bp-order-details-ancillaries-row.png)
 
    **Order History,** as a **ServicesAddition:**
 
-   **\[image]**
+   ![](/assets/uploads/bp-order-history-02.png)
 
 ### **Select Seats**
 
@@ -211,30 +210,35 @@ Click **Select Seats** to select seats for each segment of the trip.
 
 1. Hover over available seats to view seat information and pricing.
 
-   **\[image]**
+   ![](/assets/uploads/bp-select-seats-modal.png)
+
 2. Select seats for each passenger.
 
-   **\[image]**
+   ![](/assets/uploads/bp-select-seat-selected-modal.png)
+
 3. Click **Next.**
 4. A summary of selected seats will be displayed. Click **Payment** to proceed..
 
-   **\[image]**
+   ![](/assets/uploads/bp-confirm-select-seats.png)
+
 5. The **Fill payment data** form will appear. Select the **Payment method** and enter the required payment details (refer to [Payment](https://docs.google.com/document/d/1t7eUPBpTJo2opAMqpnJ68JDSqrIJfeHd/edit#heading=h.3j2qqm3) for help on this topic).
 
-   **\[image]**
+   ![](/assets/uploads/bp-payment-form-custom-card.png)
+
 6. Click **Proceed**.
 7. A success message will be displayed. Click **OK** to dismiss.
 
-   **\[image]**
+   ![](/assets/uploads/bp-selected-seats-confirmation.png)
+
 8. Confirmation of the selected seats will be displayed in two locations:
 
    **Order Details,** under **Ancillaries:**
 
-   **\[image]**
+   ![](/assets/uploads/bp-order-details-ancillaries-row.png)
 
    **Order History,** as a **SeatsAddition:**
 
-   **\[image]**
+   ![](/assets/uploads/bp-order-history-seats.png)
 
 ### **Change Itinerary**
 
