@@ -181,6 +181,7 @@ Click **Select Services** to view additional services available from the airline
 1. Select the services required.
 
    ![](/assets/uploads/bp-select-remove-services.png)
+
 2. Click **Next.**
 3. A summary of selected services will be displayed. Review, confirm or remove selected services as required.
 
