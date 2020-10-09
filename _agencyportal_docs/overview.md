@@ -5,25 +5,30 @@ category: agency_portal
 sub_category: ap_overview
 date: 2020-03-07T07:43:47.649Z
 ---
-**AirGateway's Agency Portal** web app is for travel agency to manage their agents, view airlines settings and provide support for developers.
+**AirGateway's Agency Portal** web app is for a travel agency to manage their agents, view Airlines status, and allowed operations and payment methods.
 
-## Manage Agents
+## \
+Manage Agents
 
 In this section, Agencies can do the following:
 
 * See the access granted agents list status and privilege level
 * Invite new agents
 * Activate and deactivate agents
-* Promote agent as SuperAgent
+* Promote Agents to SuperAgent
+
+[View more](/agencyportal_docs/managing-agents/)
+
+
 
 ## Airlines/Providers Status
 
 In this section, Agencies can do the following:
 
 * View all available airlines/providers
-* Set specific details for each airline/provider such as agency ID, IATA number, etc.
 
-## API Access for Developers
+## \
+API Access for Third-parties & Developers
 
 In this section, Agencies can do the following:
 
