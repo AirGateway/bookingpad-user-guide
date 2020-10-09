@@ -9,28 +9,31 @@ Use the **Orders > Search** function to quickly find the Issued Booking to be ca
 
 Under **Order Details, Fare Rules,** any restrictions on cancellations and refunds will be displayed.
 
-**\[image]**
+![](/assets/uploads/bp-farerules-cancel.png)
 
 If accepted, follow the steps below:
 
 1. Click the **Cancel Order** button at the bottom of the Order Details page.
 
-   **\[image]**
+      ![](/assets/uploads/bp-cancel-order-btn.png)
+
 2. A cancellation summary will appear, with a breakdown of the fare to be refunded.
 
-   **\[image]**
+   ![](/assets/uploads/bp-order-cancel-details.png)
+
 3. Click **Refund and Cancel Order.**
 
    **[Warning:** This action cannot be undone. A booking cannot be re-issued once cancelled.]
 4. A success message will be displayed. Click **Close window** to dismiss.
 
-   **\[image]**
+   ![](/assets/uploads/bp-order-cancel-confirmation.png)
+
 5. Confirmation of the cancelled booking will be displayed in two locations:
 
    **Order Details,** a red CANCELLED status badge will be displayed on the right hand side:
 
-   **\[image]**
+   ![](/assets/uploads/bp-order-details-cancelled.png)
 
    **Order History,** as **OrderCancelled:**
 
-   **\[image]**
+   ![](/assets/uploads/bp-order-history-cancelled.png)

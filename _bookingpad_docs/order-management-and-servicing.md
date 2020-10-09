@@ -133,9 +133,11 @@ If accepted, follow the steps below:
 1. Click the **Cancel Order** button at the bottom of the Order Details page.
 
    ![](/assets/uploads/bp-cancel-order-btn.png)
+
 2. A cancellation summary will appear, with a breakdown of the fare to be refunded.
 
    ![](/assets/uploads/bp-order-cancel-details.png)
+
 3. Click **Refund and Cancel Order.**
 
    **[Warning:** This action cannot be undone. A booking cannot be re-issued once cancelled.]
