@@ -5,10 +5,9 @@ category: agency_portal
 sub_category: ap_overview
 date: 2020-03-07T07:43:47.649Z
 ---
-**AirGateway's Agency Portal** web app is for a travel agency to manage their agents, view Airlines status, and allowed operations and payment methods.
+**Bookingpad's Agency Portal** application is where a travel agency manager can manage their agents and roles, view Airlines status, and allowed operations and payment methods.
 
-## \
-Manage Agents
+## Manage Agents
 
 In this section, Agencies can do the following:
 
@@ -17,18 +16,13 @@ In this section, Agencies can do the following:
 * Activate and deactivate agents
 * Promote Agents to SuperAgent
 
-[View more](/agencyportal_docs/managing-agents/)
-
-
-
 ## Airlines/Providers Status
 
 In this section, Agencies can do the following:
 
 * View all available airlines/providers
 
-## \
-API Access for Third-parties & Developers
+## API Access for Third-parties & Developers
 
 In this section, Agencies can do the following:
 

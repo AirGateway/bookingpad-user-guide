@@ -22,12 +22,12 @@ collections:
           - { label: "Shopping & Booking", value: "shopping-booking" }
           - { label: "Order Management & Servicing", value: "order-management-servicing" }
           - { label: "Corporates & Traveler Profiles Management", value: "profile-management" }
-          - { label: "Third-Party", value: "third-parties" }
+          - { label: "Third-Parties", value: "third-parties" }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'Agency Portal Docs'
     label: 'Agency Portal Doc'
-    folder: '_agencyportal_docs/'
+    folder: '_agency_portal_docs/'
     create: true
     slug: '{{slug}}'
     editor:
@@ -41,7 +41,6 @@ collections:
         widget: "select"
         options:
           - { label: "Overview", value: "ap_overview" }
-          - { label: "Managing Airlines", value: "manage-airline" }
           - { label: "Managing Agents", value: "manage-agents" }
           - { label: "Managing Partners", value: "manage-partners" }
           - { label: "Managing Developers", value: "manage-developers" }

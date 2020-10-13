@@ -4,7 +4,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The most advanced NDC-ready booking tool for travel agents
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://user-guide.bookingpad.net/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://user-guide.bookingpad.info/"
 
 algolia:
   application_id: N1HTGKTL3T
@@ -15,7 +15,7 @@ collections:
   bookingpad_docs:
     permalink: "/:collection/:path/"
     output: true
-  agencyportal_docs:
+  agency_portal_docs:
     permalink: "/:collection/:path/"
     output: true
   posts:
@@ -24,8 +24,8 @@ collections:
   category:
     output: true
 
-twitter_username: AirGateway
-github_username:  AirGateway
+twitter_username: Bookingpad
+github_username:  Bookingpad
 
 show_dir_listing    : false
 

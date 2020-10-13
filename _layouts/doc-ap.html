@@ -35,7 +35,7 @@ layout: default
       <h3 class="docNav-heading">{{ page.list_title | default: "Agency Portal Support" }}</h3>
 
       <ul class="table-of-contents">
-        {%- for agencyportal_doc in site.agencyportal_docs -%}
+        {%- for agencyportal_doc in site.agency_portal_docs -%}
         <li class="{% if agencyportal_doc.url == page.url %}active{% endif %}">
           <a class="post-link" href="{{ agencyportal_doc.url | relative_url }}">
             {{ agencyportal_doc.title | escape }}

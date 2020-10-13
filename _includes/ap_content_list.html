@@ -6,23 +6,8 @@
                 Overview
             </h3>
             <ul>
-                {% assign ap-overview-docs = site.agencyportal_docs | where: "sub_category","ap_overview" %}
+                {% assign ap-overview-docs = site.agency_portal_docs | where: "sub_category","ap_overview" %}
                 {%- for agencyportal_doc in ap-overview-docs -%}
-                <li>
-                    <a href="{{ agencyportal_doc.url }}">
-                        {{ agencyportal_doc.title | escape }}
-                    </a>
-                </li>
-                {%- endfor -%}
-            </ul>
-        </li>
-        <li class="cat-list">
-            <h3>
-                Managing Airlines
-            </h3>
-            <ul>
-                {% assign airlines-docs = site.agencyportal_docs | where: "sub_category","manage-airlines" %}
-                {%- for agencyportal_doc in airlines-docs -%}
                 <li>
                     <a href="{{ agencyportal_doc.url }}">
                         {{ agencyportal_doc.title | escape }}
@@ -36,7 +21,7 @@
                 Managing Agents
             </h3>
             <ul>
-                {% assign agents-docs = site.agencyportal_docs | where: "sub_category","manage-agents" %}
+                {% assign agents-docs = site.agency_portal_docs | where: "sub_category","manage-agents" %}
                 {%- for agencyportal_doc in agents-docs -%}
                 <li>
                     <a href="{{ agencyportal_doc.url }}">
@@ -51,7 +36,7 @@
                 Managing Partners
             </h3>
             <ul>
-                {% assign partners-docs = site.agencyportal_docs | where: "sub_category","manage-partners" %}
+                {% assign partners-docs = site.agency_portal_docs | where: "sub_category","manage-partners" %}
                 {%- for agencyportal_doc in partners-docs -%}
                 <li>
                     <a href="{{ agencyportal_doc.url }}">
@@ -66,7 +51,7 @@
                 Managing Developers
             </h3>
             <ul>
-                {% assign developers-docs = site.agencyportal_docs | where: "sub_category","manage-developers" %}
+                {% assign developers-docs = site.agency_portal_docs | where: "sub_category","manage-developers" %}
                 {%- for agencyportal_doc in developers-docs -%}
                 <li>
                     <a href="{{ agencyportal_doc.url }}">
