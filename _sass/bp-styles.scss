@@ -321,3 +321,27 @@ footer {
     }
   }
 }
+
+
+.search-box {
+  background-color: #e9f4ff;
+
+  margin-bottom: 3rem;
+
+  @media only screen and (min-width: 760px) {
+  padding: 2rem 8rem;
+  }
+
+  table {
+    margin: 0;
+
+    td {
+      border: none;
+    }
+  }
+
+  .gsc-control-cse {
+    background-color: transparent;
+    border: none;
+  }
+}
