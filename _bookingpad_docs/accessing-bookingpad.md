@@ -22,7 +22,7 @@ To be granted access to Bookingpad you need to request an invitation by email to
 
 ### Log In
 
-1. Once registered, go to [Bookingpad.](https://app.airgateway.net/)
+1. Once registered, go to [Bookingpad.](https://web.bookingpad.app/)
    ![Log in screen of Bookingpad](/assets/uploads/bp-login.png)
 2. Enter your:
 
