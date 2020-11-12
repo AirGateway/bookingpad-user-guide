@@ -18,6 +18,7 @@ GEM
     ffi (1.13.1)
     filesize (0.2.0)
     forwardable-extended (2.6.0)
+    front_matter_parser (0.2.1)
     http_parser.rb (0.6.0)
     httpclient (2.8.3)
     i18n (1.8.3)
@@ -75,6 +76,7 @@ GEM
       forwardable-extended (~> 2.6)
     progressbar (1.10.1)
     public_suffix (4.0.5)
+    rake (13.0.1)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -92,10 +94,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  front_matter_parser
   jekyll (~> 4.1.1)
   jekyll-algolia
   jekyll-feed (~> 0.12)
+  json
   minima (~> 2.5)
+  rake
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
