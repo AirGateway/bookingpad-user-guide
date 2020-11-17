@@ -2,7 +2,7 @@
 layout: default
 ---
 <br />&nbsp;
-<!-- <form action="get" id="site_search">
+<form action="get" id="site_search">
   <input style="font-size:20px;" type="text" id="search_box">
   <input style="font-size:20px;" type="submit" value="Go!">
 </form>
@@ -11,28 +11,15 @@ layout: default
 
 <ul id="search_results"></ul>
 
+<div class="home">
+  {% include bp_content_list.html %}
+  {% include ap_content_list.html %}
+</div>
+
+
 
 <script src="/node_modules/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.min.js" type="text/javascript"
   charset="utf-8"></script>
 <script src="/node_modules/lunr/lunr.js" type="text/javascript" charset="utf-8"></script>
 <script src="{{ site.baseurl }}/js/search.js" type="text/javascript" charset="utf-8"></script>
-
--->
-  
-<form action="{{ site.baseurl }}/search/" method="get">
-				<input type="text" name="q" id="search-input" placeholder="Search" autofocus>
-        <input type="submit" value="Go!" >
-
-      </form>
-
-
-
-<a href="{{ site.baseurl }}/search/">search</a>
-
-<div class="home">
-  {% include bp_content_list.html %}
-  
-  {% include ap_content_list.html %}
-</div>
-

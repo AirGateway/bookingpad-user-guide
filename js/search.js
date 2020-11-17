@@ -15,12 +15,48 @@ jQuery(function () {
       window.documents.push(doc);
     });
   });
+
+  function getQueryVariable(variable) {
+    var query = window.location.search.substring(1),
+      vars = query.split("&");
+
+    for (var i = 0; i < vars.length; i++) {
+      var pair = vars[i].split("=");
+
+      if (pair[0] === variable) {
+        return decodeURIComponent(pair[1].replace(/\+/g, "%20")).trim();
+      }
+    }
+  }
+
+  var query = decodeURIComponent(
+    (getQueryVariable("q") || "").replace(/\+/g, "%20")
+  );
+
+  if (query) {
+    console.log(query); // Get the value for the text field
+    document.getElementById("search_box").setAttribute("value", query);
+    console.log(window);
+    setTimeout(function () {
+      if (window.idx) {
+        if (window.idx.fieldVectors) {
+          window.index = lunr.Index.load(window.idx);
+          var results = window.index.search(query); // Get lunr to perform a search
+          console.log(results);
+          display_search_results(results); // Hand the results off to be displayed
+        }
+      }
+    }, 8);
+  }
+
   // Event when the form is submitted
   $("#site_search").submit((event) => {
+    console.log(event);
     event.preventDefault();
     var query = $("#search_box").val(); // Get the value for the text field
     window.index = lunr.Index.load(window.idx);
     var results = window.index.search(query); // Get lunr to perform a search
+    console.log(results);
     display_search_results(results); // Hand the results off to be displayed
   });
 
@@ -34,7 +70,7 @@ jQuery(function () {
       p1 = document.createElement("p");
 
     a.dataset.field = "url";
-    a.href += "/blog/" + doc.url;
+    a.href += "/bookingpad_docs/" + doc.url;
     a.textContent = doc.name;
 
     p1.dataset.field = "content";
@@ -55,9 +91,9 @@ jQuery(function () {
 
   function display_search_results(results) {
     var search_results = $("#search_results");
+    console.log(search_results);
     if (results.length) {
       search_results.empty(); // Clear any old results
-
       results.forEach(function (result) {
         var item = window.documents.filter((doc) => doc.id === result.ref);
         var li = buildSearchResult(item[0]); // Build a snippet of HTML for this result
@@ -70,6 +106,7 @@ jQuery(function () {
             wrapTerms(field, positions);
           });
         });
+        console.log(li);
         search_results.append(li);
       });
     } else {
