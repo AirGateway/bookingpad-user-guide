@@ -46,7 +46,7 @@ jQuery(function () {
           display_search_results(results); // Hand the results off to be displayed
         }
       }
-    }, 8);
+    }, 500);
   }
 
   // Event when the form is submitted
