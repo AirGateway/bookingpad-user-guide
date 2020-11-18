@@ -252,6 +252,12 @@ footer {
   }
 }
 
+.search {
+  #site_search {
+    visibility: hidden;
+  }
+}
+
 .search-module {
   background-color: #e9f4ff;
   margin-bottom: 1rem;
@@ -322,14 +328,13 @@ footer {
   }
 }
 
-
 .search-box {
   background-color: #e9f4ff;
 
   margin-bottom: 3rem;
 
   @media only screen and (min-width: 760px) {
-  padding: 2rem 8rem;
+    padding: 2rem 8rem;
   }
 
   table {
