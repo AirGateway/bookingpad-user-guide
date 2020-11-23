@@ -34,15 +34,15 @@ jQuery(function () {
   );
 
   if (query) {
-    console.log(query); // Get the value for the text field
+    // console.log(query); // Get the value for the text field
     document.getElementById("search_box").setAttribute("value", query);
-    console.log(window);
+    // console.log(window);
     setTimeout(function () {
       if (window.idx) {
         if (window.idx.fieldVectors) {
           window.index = lunr.Index.load(window.idx);
           var results = window.index.search(query); // Get lunr to perform a search
-          console.log(results);
+          //     console.log(results);
           display_search_results(results); // Hand the results off to be displayed
         }
       }
@@ -51,12 +51,12 @@ jQuery(function () {
 
   // Event when the form is submitted
   $("#site_search").submit((event) => {
-    console.log(event);
+    //  console.log(event);
     event.preventDefault();
     var query = $("#search_box").val(); // Get the value for the text field
     window.index = lunr.Index.load(window.idx);
     var results = window.index.search(query); // Get lunr to perform a search
-    console.log(results);
+    //   console.log(results);
     display_search_results(results); // Hand the results off to be displayed
   });
 
@@ -72,9 +72,11 @@ jQuery(function () {
     a.dataset.field = "url";
     a.href += "/bookingpad_docs/" + doc.url;
     a.textContent = doc.name;
-
+    var converter = new showdown.Converter();
+    var html = converter.makeHtml(doc.content);
+    var parraf = $(html).find("p:first").text();
     p1.dataset.field = "content";
-    p1.textContent = doc.content;
+    p1.textContent = parraf;
     p1.style.textOverflow = "ellipsis";
     p1.style.overflow = "hidden";
     p1.style.whiteSpace = "nowrap";
@@ -91,7 +93,7 @@ jQuery(function () {
 
   function display_search_results(results) {
     var search_results = $("#search_results");
-    console.log(search_results);
+    //  console.log(search_results);
     if (results.length) {
       search_results.empty(); // Clear any old results
       results.forEach(function (result) {
@@ -106,7 +108,7 @@ jQuery(function () {
             wrapTerms(field, positions);
           });
         });
-        console.log(li);
+        //  console.log(li);
         search_results.append(li);
       });
     } else {

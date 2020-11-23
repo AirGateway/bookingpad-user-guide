@@ -57,3 +57,4 @@ plugins:
 
 include: ["node_modules"]
 exclude: []
+markdown: kramdown
