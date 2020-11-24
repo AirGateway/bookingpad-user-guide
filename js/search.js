@@ -72,11 +72,10 @@ jQuery(function () {
     a.dataset.field = "url";
     a.href += "/bookingpad_docs/" + doc.url;
     a.textContent = doc.name;
-    var converter = new showdown.Converter();
-    var html = converter.makeHtml(doc.content);
-    var parraf = $(html).find("p:first").text();
+
     p1.dataset.field = "content";
-    p1.textContent = parraf;
+    p1.textContent = doc.content;
+    console.log(doc.content);
     p1.style.textOverflow = "ellipsis";
     p1.style.overflow = "hidden";
     p1.style.whiteSpace = "nowrap";
@@ -93,11 +92,18 @@ jQuery(function () {
 
   function display_search_results(results) {
     var search_results = $("#search_results");
-    //  console.log(search_results);
     if (results.length) {
       search_results.empty(); // Clear any old results
       results.forEach(function (result) {
         var item = window.documents.filter((doc) => doc.id === result.ref);
+        // try to process the md
+        // var converter = new showdown.Converter();
+        // var html = converter.makeHtml(item[0].content);
+        // var parraf = $(html).find("p:first").text();
+
+        // item[0].content = parraf;
+        console.log(item[0].content);
+
         var li = buildSearchResult(item[0]); // Build a snippet of HTML for this result
         Object.keys(result.matchData.metadata).forEach(function (term) {
           Object.keys(result.matchData.metadata[term]).forEach(function (

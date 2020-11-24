@@ -33,5 +33,7 @@ group :jekyll_plugins do
 end
 
 gem 'json'
-gem 'rake'
 gem 'front_matter_parser'
+gem 'redcarpet'
+gem 'rake'
+
