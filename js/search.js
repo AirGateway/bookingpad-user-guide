@@ -75,7 +75,6 @@ jQuery(function () {
 
     p1.dataset.field = "content";
     p1.textContent = doc.content;
-    console.log(doc.content);
     p1.style.textOverflow = "ellipsis";
     p1.style.overflow = "hidden";
     p1.style.whiteSpace = "nowrap";

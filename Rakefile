@@ -9,7 +9,7 @@ require 'rake'
 
 
 desc "Create corpus for search"
-file './corpus.json' => ['./', *Rake::FileList['_bookingpad_docs/*.md', '_bookingpad_docs/*.markdown'].exclude()] do |md_file|
+file './corpus.json' => ['./', *Rake::FileList['_bookingpad_docs/*.md', '_bookingpad_docs/*.markdown'].exclude('_bookingpad_docs/index.md')] do |md_file|
     unsafe_loader = ->(string) { YAML.load(string) }
     corpus = md_file.sources.grep(/\.md$/)
       .map do |path|
