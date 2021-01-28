@@ -1,61 +1,187 @@
-(function () {
-    function displaySearchResults(results, store) {
-        var searchResults = document.getElementById('search-results');
+jQuery(function () {
+  $.getJSON("/search_index.json", (data, err) => {
+    window.idx = data;
+  });
 
-        if (results.length) { // Are there any results?
-            var appendString = '';
+  $.getJSON("/corpus.json", (data, err) => {
+    window.documents = [];
+    Object.entries(data).forEach((key, value) => {
+      var doc = {
+        id: key[1].id,
+        content: key[1].content,
+        name: key[1].name,
+        url: key[1].url,
+      };
+      window.documents.push(doc);
+    });
+  });
 
-            for (var i = 0; i < results.length; i++) {  // Iterate over the results
-                var item = store[results[i].ref];
-                appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
-                appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
-            }
+  function getQueryVariable(variable) {
+    var query = window.location.search.substring(1),
+      vars = query.split("&");
 
-            searchResults.innerHTML = appendString;
-        } else {
-            searchResults.innerHTML = '<li>No results found</li>';
-        }
+    for (var i = 0; i < vars.length; i++) {
+      var pair = vars[i].split("=");
+
+      if (pair[0] === variable) {
+        return decodeURIComponent(pair[1].replace(/\+/g, "%20")).trim();
+      }
     }
+  }
 
-    function getQueryVariable(variable) {
-        var query = window.location.search.substring(1);
-        var vars = query.split('&');
+  var query = decodeURIComponent(
+    (getQueryVariable("q") || "").replace(/\+/g, "%20")
+  );
 
-        for (var i = 0; i < vars.length; i++) {
-            var pair = vars[i].split('=');
-
-            if (pair[0] === variable) {
-                return decodeURIComponent(pair[1].replace(/\+/g, '%20'));
-            }
+  if (query) {
+    // console.log(query); // Get the value for the text field
+    document.getElementById("search_box").setAttribute("value", query);
+    // console.log(window);
+    setTimeout(function () {
+      if (window.idx) {
+        if (window.idx.fieldVectors) {
+          window.index = lunr.Index.load(window.idx);
+          var results = window.index.search(query); // Get lunr to perform a search
+          //     console.log(results);
+          display_search_results(results); // Hand the results off to be displayed
         }
-    }
+      }
+    }, 500);
+  }
 
-    var searchTerm = getQueryVariable('query');
+  // Event when the form is submitted
+  $("#site_search").submit((event) => {
+    //  console.log(event);
+    event.preventDefault();
+    var query = $("#search_box").val(); // Get the value for the text field
+    window.index = lunr.Index.load(window.idx);
+    var results = window.index.search(query); // Get lunr to perform a search
+    //   console.log(results);
+    display_search_results(results); // Hand the results off to be displayed
+  });
 
-    if (searchTerm) {
-        document.getElementById('search-box').setAttribute("value", searchTerm);
+  var buildSearchResult = (doc) => {
+    var li = document.createElement("li"),
+      article = document.createElement("article"),
+      header = document.createElement("header"),
+      section = document.createElement("section"),
+      h2 = document.createElement("h2"),
+      a = document.createElement("a"),
+      p1 = document.createElement("p");
 
-        // Initalize lunr with the fields it will be searching on. I've given title
-        // a boost of 10 to indicate matches on this field are more important.
-        var idx = lunr(function () {
-            this.field('id');
-            this.field('title', { boost: 10 });
-            this.field('author');
-            this.field('category');
-            this.field('content');
+    a.dataset.field = "url";
+    a.href += "/bookingpad_docs/" + doc.url;
+    a.textContent = doc.name;
+
+    p1.dataset.field = "content";
+    p1.textContent = doc.content;
+    p1.style.textOverflow = "ellipsis";
+    p1.style.overflow = "hidden";
+    p1.style.whiteSpace = "nowrap";
+
+    li.appendChild(article);
+    article.appendChild(header);
+    article.appendChild(section);
+    header.appendChild(h2);
+    h2.appendChild(a);
+    section.appendChild(p1);
+
+    return li;
+  };
+
+  function display_search_results(results) {
+    var search_results = $("#search_results");
+    if (results.length) {
+      search_results.empty(); // Clear any old results
+      results.forEach(function (result) {
+        var item = window.documents.filter((doc) => doc.id === result.ref);
+        // try to process the md
+        // var converter = new showdown.Converter();
+        // var html = converter.makeHtml(item[0].content);
+        // var parraf = $(html).find("p:first").text();
+
+        // item[0].content = parraf;
+        console.log(item[0].content);
+
+        var li = buildSearchResult(item[0]); // Build a snippet of HTML for this result
+        Object.keys(result.matchData.metadata).forEach(function (term) {
+          Object.keys(result.matchData.metadata[term]).forEach(function (
+            fieldName
+          ) {
+            var field = li.querySelector("[data-field=" + fieldName + "]"),
+              positions = result.matchData.metadata[term][fieldName].position;
+            wrapTerms(field, positions);
+          });
         });
-
-        for (var key in window.store) { // Add the data to lunr
-            idx.add({
-                'id': key,
-                'title': window.store[key].title,
-                'author': window.store[key].author,
-                'category': window.store[key].category,
-                'content': window.store[key].content
-            });
-
-            var results = idx.search(searchTerm); // Get lunr to perform a search
-            displaySearchResults(results, window.store); // We'll write this in the next section
-        }
+        //  console.log(li);
+        search_results.append(li);
+      });
+    } else {
+      // If there are no results, let the user know.
+      search_results.html(
+        "<li>No results found.<br/>Please check spelling, spacing, yada...</li>"
+      );
     }
-})();
+  }
+
+  function wrapTerms(element, matches) {
+    var nodeFilter = {
+      acceptNode: function (node) {
+        if (/^[\t\n\r ]*$/.test(node.nodeValue)) {
+          return NodeFilter.FILTER_SKIP;
+        }
+        return NodeFilter.FILTER_ACCEPT;
+      },
+    };
+    var index = 0,
+      matches = matches
+        .sort(function (a, b) {
+          return a[0] - b[0];
+        })
+        .slice(),
+      previousMatch = [-1, -1],
+      match = matches.shift(),
+      walker;
+    if (element instanceof Element) {
+      walker = document.createTreeWalker(
+        element,
+        NodeFilter.SHOW_TEXT,
+        nodeFilter,
+        false
+      );
+    } else {
+      return "not an element";
+    }
+    while ((node = walker.nextNode())) {
+      if (match == undefined) break;
+      if (match[0] == previousMatch[0]) continue;
+
+      var text = node.textContent,
+        nodeEndIndex = index + node.length;
+
+      if (match[0] < nodeEndIndex) {
+        var range = document.createRange(),
+          tag = document.createElement("mark"),
+          rangeStart = match[0] - index,
+          rangeEnd = rangeStart + match[1];
+
+        tag.dataset.rangeStart = rangeStart;
+        tag.dataset.rangeEnd = rangeEnd;
+
+        range.setStart(node, rangeStart);
+        range.setEnd(node, rangeEnd);
+        range.surroundContents(tag);
+
+        index = match[0] + match[1];
+
+        // the next node will now actually be the text we just wrapped, so
+        // we need to skip it
+        walker.nextNode();
+        previousMatch = match;
+        match = matches.shift();
+      } else {
+        index = nodeEndIndex;
+      }
+    }
+  }
+});

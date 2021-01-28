@@ -4,15 +4,15 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'docs'
-    label: 'Docs'
-    folder: 'docs'
+  - name: "docs"
+    label: "Docs"
+    folder: "docs"
     create: true
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     editor:
       preview: false
     fields:
-      - { label: 'ID', name: 'id', widget: 'string' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Sidebar Label', name: 'sidebar_label', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "ID", name: "id", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Sidebar Label", name: "sidebar_label", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

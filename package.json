@@ -1,0 +1,25 @@
+{
+  "name": "bookingpad-user-guide",
+  "version": "1.0.0",
+  "description": "This is Bookingpad's official USER GUIDE website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AirGateway/bookingpad-user-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AirGateway/bookingpad-user-guide/issues"
+  },
+  "homepage": "https://github.com/AirGateway/bookingpad-user-guide#readme",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "lunr": "^2.3.9",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {}
+}

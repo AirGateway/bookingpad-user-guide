@@ -31,3 +31,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 group :jekyll_plugins do
   gem 'jekyll-algolia'
 end
+
+gem 'json'
+gem 'front_matter_parser'
+gem 'redcarpet'
+gem 'rake'
+

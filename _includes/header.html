@@ -9,6 +9,23 @@
       {{ site.title | escape }}
     </a>
 
+    <form class="site-search " action="{{ site.baseurl }}/search/" method="get">
+      <input type="text" name="q" id="search-input" placeholder="Search" autofocus class="site-search__input">
+      <span class=""></span>
+      <!-- <input class="prev" type="submit" value="Search!" class="site-search__button"> --->
+    
+    </form>
+
+    <script>
+      var searchBox = document.querySelectorAll('.site-search input[type="text"] + span');
+
+        searchBox.forEach((elm) => {
+          elm.addEventListener('click', () => {
+            elm.previousElementSibling.value = '';
+          });
+        });
+    </script>
+
     {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />

@@ -25,15 +25,15 @@ collections:
     output: true
 
 twitter_username: Bookingpad
-github_username:  Bookingpad
+github_username: Bookingpad
 
-show_dir_listing    : false
+show_dir_listing: false
 
 # Build settings
 # theme: minima
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,3 +54,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include: ["node_modules"]
+exclude: []
+markdown: kramdown
